@@ -4,16 +4,23 @@ actor Skipper [
  Skipper
 ]
 
-node RPI [
- <b>Rpi4, BBN OS
+node RPI #peachpuff [
+ <b>Rpi4 8Gb, BBN OS
  ----
- Local WiFi
- CanBus Interface
- Sound Card
- SSD
+ Local WiFi (built-in)
+ CanBus Interface - (no)
+ Sound Card - (?usb)
+ SSD - SAMSUNG 870 EVO 500GB
+     2.5 Inch SATA III
+     Internal SSD (MZ-77E500B/AM)
+ Case - (DeskPi Pro v2)
+ SD Card - (Samsung PRO Endurance
+     32GB 100MB/s (U1) MicroSDXC
+     Memory Card with Adapter
+     (MB-MJ32GA/AM))
 ]
 
-rectangle GPS [
+rectangle GPS #peachpuff [
  GPS USB
 ]
 
@@ -31,7 +38,7 @@ rectangle NMEA_2000 [
  etc
 ]
 
-node NMEA_Mux [
+node NMEA_Mux #peachpuff [
  NMEA Multiplexer
  ----
  bidirectional Seatalk1
@@ -41,7 +48,7 @@ node NMEA_Eth_Mux [
  NMEA Ethernet Multiplexer
 ]
 
-rectangle NMEA_0183 [
+rectangle NMEA_0183 #palegreen [
  <b>NMEA 0183 Devices
  ----
  AIS transducer/receiver
@@ -73,16 +80,21 @@ node GPS_Ant #palegreen [
  SeaTec
 ]
 
-node Eth_Hub [
+node Eth_Hub #peachpuff [
  Ethernet Hub
 ]
 
-node USB_Hub [
+node USB_Hub #peachpuff [
  USB Hub
 ]
 
-node Router [
+node Router #peachpuff [
  LTE/WiFi Router
+ ----
+ GL.iNet
+ Spitz (GL-X750)
+ Modem: (?)
+ GPS: (built-in into Modem)
 ]
 
 rectangle Dish_Router [
@@ -96,8 +108,12 @@ node Radar #palegreen [
  Furuno 1715
 ]
 
-node Touchscreen [
- <b>HDMI Touchscreen
+node Touchscreen  #peachpuff [
+ <b>HDMI Touchscreen (USB)
+ ----
+ Nav Station
+ Size: ?
+ Mount: ?
 ]
 
 rectangle Speakers [
@@ -125,7 +141,7 @@ node SSB [
  SSB Radio
 ]
 
-cloud WiFi_Local [
+cloud WiFi_Local #peachpuff [
  Local WiFi
 ]
 
@@ -147,7 +163,7 @@ rectangle Other_Sensors [
  lightning strike sensors
 ]
 
-rectangle Remote_Desktop [
+rectangle Remote_Desktop #peachpuff [
  Remote Desktop (VNC)
 ]
 
@@ -169,7 +185,7 @@ node Appliance [
  Live well
 ]
 
-rectangle Lights_Fans [
+rectangle Lights_Fans #palegreen [
  Lights: (Nav, Anchor,
  Running, Mast, Cabin,
  Underwater, Search, etc)
@@ -177,9 +193,15 @@ rectangle Lights_Fans [
  Bilge/Engine Blower
 ]
 
-rectangle Keyboard_Mouse [
- Keyboard
- Mouse
+rectangle Keyboard_Mouse #peachpuff [
+ Keyboard: IP68 Waterproof USB,
+    Compact, Backlight
+    Integrated Mouse Button
+    Silicone IKB850BL
+
+ Mouse: USB-wired, Optical,
+    2 Buttons,
+    Scroll Wheel (as 3rd),
 ]
 
 rectangle Weather [
@@ -192,7 +214,7 @@ rectangle SiriusXM [
  SiriusXM Marine
 ]
 
-rectangle SmartPhone [
+rectangle SmartPhone #palegreen [
  SmartPhones
  Tablets
 ]
@@ -234,7 +256,7 @@ node Winches [
  Bow Thruster
 ]
 
-cloud Cloud_Internet [
+cloud Cloud_Internet #peachpuff [
  <b>Internet
  Cloud Storage
  Cloud Services
