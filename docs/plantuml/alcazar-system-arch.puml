@@ -55,7 +55,7 @@ rectangle IMU [
 ]
 
 rectangle NMEA_2000 [
- <b>NMEA2000 Bus
+ NMEA2000 Bus
  ----
  engine sensors,
  fishfinder, sonar,
@@ -63,7 +63,7 @@ rectangle NMEA_2000 [
 ]
 
 node NMEA_Mux #peachpuff [
- NMEA Multiplexer
+ <b>NMEA Multiplexer
  ----
  bidirectional Seatalk1
  Model: (?)
@@ -82,7 +82,7 @@ rectangle NMEA_0183 #palegreen [
 ]
 
 node AP #palegreen [
- Autopilot
+ <b>Autopilot
  ---
  Raymarine Autohelm 7000
 ]
@@ -90,18 +90,19 @@ node AP #palegreen [
 node AP_2 #peachpuff [
  TinyPilot
  ---
- PyPilot Software
+ Software: PyPilot
+ Hardware: TinyPilot
  Buy at: https://pypilot.org/store
 ]
 
 node VHF #palegreen [
- VHF
+ <b>VHF
  ---
  Icom IC-M45
 ]
 
 node Chartplotter #palegreen [
- Chartplotter
+ <b>Chartplotter
  ---
  Furuno GP 1650
 ]
@@ -126,7 +127,7 @@ node USB_Hub #peachpuff [
 ]
 
 node Router #peachpuff [
- LTE/WiFi Router
+ <b>LTE/WiFi Router
  ----
  GL.iNet
  Spitz (GL-X750)
@@ -228,7 +229,7 @@ node Appliance [
 ]
 
 node AIS #peachpuff [
- AIS Transducer
+ <b>AIS Transducer
  ----
  Model: (?)
 ]
@@ -279,25 +280,25 @@ database NAS [
 ]
 
 node Rudder #palegreen [
- Rudder Drive Motor
+ <b>Rudder Drive Motor
 ]
 
 node Dash_1 #palegreen [
- Wind Display
+ <b>Wind Display
  ----
  Raymarine
  st60 a22010-P
 ]
 
 node Dash_2 #palegreen [
- Speed Display
+ <b>Speed Display
  ----
  Raymarine
  st60 a22001-P
 ]
 
 node Dash_3 #palegreen [
- Depth Display
+ <b>Depth Display
  ----
  Raymarine
  st60 a22002-P (?)
