@@ -4,6 +4,20 @@ actor Skipper [
  Skipper
 ]
 
+node Panel #peachpuff [
+ <b>Nav Station Panel
+ ----
+ Switches
+ Fuses
+ USB Data Ports
+ HDMI Ports
+ Audio Ports
+ SIM Card Port
+ SD Card Port (?)
+ Status Lights
+ Volt/Amm Meters
+]
+
 node RPI #peachpuff [
  <b>Rpi4 8Gb, BBN OS
  ----
@@ -324,6 +338,7 @@ RPI -- Other_Sensors
 RPI -d- Esp32
 RPI -u- WiFi_Local
 RPI -u- Keyboard_Mouse
+RPI -l- Panel
 
 SmartPhone -- WiFi_Local
 AP_2 -u- WiFi_Local
