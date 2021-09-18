@@ -55,7 +55,7 @@ rectangle Env_Sens #peachpuff [
  I2C Bosch BME680
 ]
 
-rectangle NMEA_2000 [
+cloud NMEA_2000 [
  NMEA2000 Bus
  ----
  engine sensors,
@@ -80,7 +80,7 @@ node NMEA_Eth_Mux [
  NMEA Ethernet Multiplexer
 ]
 
-rectangle NMEA_0183 #palegreen [
+cloud NMEA_0183 #palegreen [
  <b>NMEA 0183 Devices
  ----
  NMEA 0183 Interface
