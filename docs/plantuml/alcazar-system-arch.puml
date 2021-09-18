@@ -319,10 +319,10 @@ cloud Cloud_Internet #peachpuff [
  Movies: via Browser
  Weather: Grib, Windy, WeatherFax, NOAA,
     Lightnings Map
- Charts: MbTiles, NOAA, Navionics
+ Charts: MbTiles, NOAA, Navionics, etc
  Email: any
- Software updates: apt, SignalK, OpenCPN, AvNav
- WebCam: (?)
+ Software updates: apt, SignalK, OpenCPN, AvNav, etc
+ WebCam
 ]
 
 cloud Lora [
