@@ -76,9 +76,7 @@ node NMEA_Eth_Mux [
 rectangle NMEA_0183 #palegreen [
  <b>NMEA 0183 Devices
  ----
- AIS transducer/receiver
- GPS, VHF, compass
- Wind, Depth, Speed
+
 ]
 
 node AP #palegreen [
@@ -370,8 +368,8 @@ node Batteries #palegreen [
 node Charger_Solar #palegreen [
  Solar Charger
  ----
- ProStar-20, Morningstar Corp
- Flooded Lead Acid
+ ProStar-20,
+ Morningstar Corp
 ]
 
 node Engines #palegreen [
