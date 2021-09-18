@@ -215,17 +215,20 @@ node AC [
  Heater
 ]
 
-node Pumps [
+node Pumps #palegreen [
  Pumps
  ----
  Bilge
  Fresh Water
- Black Water
 ]
 
 node Appliance [
  Watermaker
  Live well
+ Fans: Bilge/Engine Blower
+ Black Water Pump
+ Underwater light,
+ Search light
 ]
 
 node AIS #peachpuff [
@@ -236,10 +239,7 @@ node AIS #peachpuff [
 
 rectangle Lights_Fans #palegreen [
  Lights: (Nav, Anchor,
- Running, Mast, Cabin,
- Underwater, Search, etc)
- Fans
- Bilge/Engine Blower
+ Running, Mast, Cabin, etc)
 ]
 
 rectangle Keyboard_Mouse #peachpuff [
@@ -251,6 +251,8 @@ rectangle Keyboard_Mouse #peachpuff [
  Mouse: USB-wired, Optical,
     2 Buttons,
     Scroll Wheel (as 3rd),
+
+ Gel mouse pad
 ]
 
 rectangle Weather [
@@ -264,8 +266,9 @@ rectangle SiriusXM [
 ]
 
 rectangle SmartPhone #palegreen [
- SmartPhones
- Tablets
+ <b>SmartPhones (iPhone)
+
+ Tablets (Android)
 ]
 
 database NAS [
@@ -307,11 +310,14 @@ node Dash_3 #palegreen [
 node Fridge #palegreen [
  Fridges (2)
  ----
- Seacop BD35
+ Secop BD35
 ]
 
-node Winches [
+node Winches #palegreen [
  Anchor Windlass
+]
+
+node Winches_etc [
  Power Winches
  Bow Thruster
 ]
@@ -404,6 +410,7 @@ Chartplotter -- GPS_Ant
 
 Esp32 -- Lora
 Esp32 -- Winches
+Esp32 -- Winches_etc
 
 Cloud_Internet -- Dish_Router
 Cloud_Internet -- Router
