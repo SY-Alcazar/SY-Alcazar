@@ -64,6 +64,13 @@ node AP #palegreen [
  Raymarine Autohelm 7000
 ]
 
+node AP_2 #peachpuff [
+ TinyPilot
+ ---
+ PyPilot Software
+ Buy at: https://pypilot.org/store
+]
+
 node VHF #palegreen [
  VHF
  ---
@@ -315,6 +322,8 @@ RPI -u- WiFi_Local
 RPI -u- Keyboard_Mouse
 
 SmartPhone -- WiFi_Local
+AP_2 -l- WiFi_Local
+AP_2 -- AP
 
 SiriusXM -- NMEA_2000
 NMEA_2000 -- NMEA_2000
