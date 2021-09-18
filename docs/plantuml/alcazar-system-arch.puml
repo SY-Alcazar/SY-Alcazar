@@ -48,10 +48,10 @@ rectangle GPS #peachpuff [
  Model: (?)
 ]
 
-rectangle IMU [
- IMU
+rectangle Env_Sens #peachpuff [
+ Env Sensors
  ----
- compass, gyro, accel
+ I2C Bosch BME680
 ]
 
 rectangle NMEA_2000 [
@@ -76,7 +76,7 @@ node NMEA_Eth_Mux [
 rectangle NMEA_0183 #palegreen [
  <b>NMEA 0183 Devices
  ----
-
+ NMEA 0183 Interface
 ]
 
 node AP #palegreen [
@@ -397,7 +397,7 @@ node Wind_Gen #palegreen [
   ? Watts
 ]
 
-RPI -l- IMU
+RPI -l- Env_Sens
 RPI -- NMEA_2000
 RPI -d- NMEA_Mux
 RPI -u- Eth_Hub
