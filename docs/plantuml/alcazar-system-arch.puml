@@ -240,6 +240,8 @@ node AIS #peachpuff [
 rectangle Lights_Fans #palegreen [
  Lights: (Nav, Anchor,
  Running, Mast, Cabin, etc)
+
+ Cabin Fans
 ]
 
 rectangle Keyboard_Mouse #peachpuff [
