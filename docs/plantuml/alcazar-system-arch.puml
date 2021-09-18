@@ -90,7 +90,7 @@ node AP_2 #peachpuff [
  ---
  Software: PyPilot
  Hardware: TinyPilot
- Buy at: https://pypilot.org/store
+ [[https://pypilot.org/store Buy Here]]
 ]
 
 node VHF #palegreen [
