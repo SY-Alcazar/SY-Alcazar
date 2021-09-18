@@ -320,6 +320,7 @@ cloud Cloud_Internet #peachpuff [
     Lightnings Map
  Charts: MbTiles, NOAA, Navionics
  Email: any
+ Software updates: apt, SignalK, OpenCPN, AvNav
 ]
 
 cloud Lora [
