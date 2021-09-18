@@ -135,7 +135,7 @@ node Router #peachpuff [
  Spitz (GL-X750)
  Modem: (?)
  GPS: (built-in into Modem)
- LET Provider:
+ Cell Data Provider:
     Digicel while in Carib
 ]
 
