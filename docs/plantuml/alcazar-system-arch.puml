@@ -63,6 +63,12 @@ rectangle NMEA_2000 [
  etc
 ]
 
+node Junction_ST1 #peachpuff [
+ Seatalk1 Junction Block
+ ----
+ Model: (?)
+]
+
 node NMEA_Mux #peachpuff [
  <b>NMEA Multiplexer
  ----
@@ -463,10 +469,12 @@ NMEA_Eth_Mux -- NMEA_0183
 NMEA_Mux -- AP
 NMEA_Mux -- VHF
 NMEA_Mux -- Chartplotter
-NMEA_Mux -l- Dash_1
-NMEA_Mux -u- Dash_2
-NMEA_Mux -l- Dash_3
+NMEA_Mux --- Junction_ST1
 NMEA_Mux -u- AIS
+
+Junction_ST1 -d- Dash_1
+Junction_ST1 -d- Dash_2
+Junction_ST1 -d- Dash_3
 
 Chartplotter -- GPS_Ant
 
