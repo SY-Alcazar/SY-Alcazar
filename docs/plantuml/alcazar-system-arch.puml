@@ -1,0 +1,319 @@
+@startuml
+
+actor Skipper [
+ Skipper
+]
+
+node RPI [
+ <b>Rpi4, BBN OS
+ ----
+ Local WiFi
+ CanBus Interface
+ Sound Card
+ SSD
+]
+
+rectangle GPS [
+ GPS USB
+]
+
+rectangle IMU [
+ IMU
+ ----
+ compass, gyro, accel
+]
+
+rectangle NMEA_2000 [
+ <b>NMEA2000 Bus
+ ----
+ engine sensors,
+ fishfinder, sonar,
+ etc
+]
+
+node NMEA_Mux [
+ NMEA Multiplexer
+ ----
+ bidirectional Seatalk1
+]
+
+node NMEA_Eth_Mux [
+ NMEA Ethernet Multiplexer
+]
+
+rectangle NMEA_0183 [
+ <b>NMEA 0183 Devices
+ ----
+ AIS transducer/receiver
+ GPS, VHF, compass
+ Wind, Depth, Speed
+]
+
+node AP #palegreen [
+ Autopilot
+ ---
+ Raymarine Autohelm 7000
+]
+
+node VHF #palegreen [
+ VHF
+ ---
+ Icom IC-M45
+]
+
+node Chartplotter #palegreen [
+ Chartplotter
+ ---
+ Furuno GP 1650
+]
+
+node GPS_Ant #palegreen [
+ GPS Antenna
+ ---
+ SeaTec
+]
+
+node Eth_Hub [
+ Ethernet Hub
+]
+
+node USB_Hub [
+ USB Hub
+]
+
+node Router [
+ LTE/WiFi Router
+]
+
+rectangle Dish_Router [
+ StarLink Router,
+ Dish
+]
+
+node Radar #palegreen [
+ Radar
+ ----
+ Furuno 1715
+]
+
+node Touchscreen [
+ <b>HDMI Touchscreen
+]
+
+rectangle Speakers [
+ Speakers
+]
+
+rectangle Mic [
+ Microphone
+]
+
+rectangle Cameras [
+ Cameras
+ ----
+ WebCam, Mast,
+ Night (FLIR),
+ low light vision,
+ IP, docking, etc
+]
+
+node SDR [
+ SDR Radio
+]
+
+node SSB [
+ SSB Radio
+]
+
+cloud WiFi_Local [
+ Local WiFi
+]
+
+rectangle Iridium #palegreen [
+ Sat Phone
+ ----
+ Iridium Go
+]
+
+rectangle Other_Sensors [
+ Other_Sensors
+ ----
+ IoT, 1w, i2c, etc
+ batteries monitoring
+ chargers (wind, solar, diesel gen)
+ fluid levels
+ env temp/pressure/humid
+ dangerous gases sensors
+ lightning strike sensors
+]
+
+rectangle Remote_Desktop [
+ Remote Desktop (VNC)
+]
+
+node AC [
+ A/C
+ Heater
+]
+
+node Pumps [
+ Pumps
+ ----
+ Bilge
+ Fresh Water
+ Black Water
+]
+
+node Appliance [
+ Watermaker
+ Live well
+]
+
+rectangle Lights_Fans [
+ Lights: (Nav, Anchor,
+ Running, Mast, Cabin,
+ Underwater, Search, etc)
+ Fans
+ Bilge/Engine Blower
+]
+
+rectangle Keyboard_Mouse [
+ Keyboard
+ Mouse
+]
+
+rectangle Weather [
+ NavTex
+ WeatherFax
+ Barograph
+]
+
+rectangle SiriusXM [
+ SiriusXM Marine
+]
+
+rectangle SmartPhone [
+ SmartPhones
+ Tablets
+]
+
+database NAS [
+ NAS
+ ----
+ Audio/Video Lib
+ Charts, Backups, Tracks,
+ Docs, Logs,
+ Crew Docs, Float Plans,
+ Inventory, Provisioning,
+ Time Series Data, etc
+]
+
+node Dash_1 #palegreen [
+ Wind Display
+ ----
+ Raymarine
+ st60 a22010-P
+]
+
+node Dash_2 #palegreen [
+ Speed Display
+ ----
+ Raymarine
+ st60 a22001-P
+]
+
+node Fridge #palegreen [
+ Fridges (2)
+ ----
+ Seacop BD35
+]
+
+node Winches [
+ Anchor Windlass
+ Power Winches
+ Bow Thruster
+]
+
+cloud Cloud_Internet [
+ <b>Internet
+ Cloud Storage
+ Cloud Services
+]
+
+cloud Lora [
+ LoraWAN
+ Asset Tracking
+ Dinghy Locator
+]
+
+rectangle Esp32 [
+ m5stack,
+ arduino
+]
+
+RPI -l- IMU
+RPI -- NMEA_2000
+RPI -- NMEA_Mux
+RPI -u- Eth_Hub
+RPI -- USB_Hub
+RPI -u- Touchscreen
+RPI -u- Cameras
+RPI -u-> Speakers
+RPI -u- Mic
+RPI -u- SSB
+RPI -u- Iridium
+RPI -- Other_Sensors
+RPI -d- Esp32
+RPI -u- WiFi_Local
+RPI -u- Keyboard_Mouse
+
+SmartPhone -- WiFi_Local
+
+SiriusXM -- NMEA_2000
+NMEA_2000 -- NMEA_2000
+
+Eth_Hub -r- Router
+Eth_Hub -- Radar
+Eth_Hub -- NAS
+Eth_Hub -- NMEA_Eth_Mux
+Eth_Hub -u- Dish_Router
+
+USB_Hub -- SDR
+USB_Hub -- Weather
+USB_Hub -r- GPS
+
+Other_Sensors -r- AC
+Other_Sensors -- Fridge
+Other_Sensors -- Appliance
+Other_Sensors -- Lights_Fans
+Other_Sensors -- Pumps
+
+NMEA_Mux -l- NMEA_0183
+NMEA_Eth_Mux -- NMEA_0183
+NMEA_Mux -- AP
+NMEA_Mux -- VHF
+NMEA_Mux -- Chartplotter
+NMEA_Mux -r- Dash_1
+NMEA_Mux -r- Dash_2
+
+Chartplotter -- GPS_Ant
+
+Esp32 -- Lora
+Esp32 -- Winches
+
+Cloud_Internet -- Dish_Router
+Cloud_Internet -- Router
+Cloud_Internet -- Iridium
+Cloud_Internet -- Remote_Desktop
+
+Skipper -- Touchscreen
+Skipper -- Speakers
+Skipper -- Mic
+Skipper -- Cameras
+Skipper -- Iridium
+Skipper -- SSB
+Skipper -- SmartPhone
+Skipper -- Keyboard_Mouse
+Skipper -- Remote_Desktop
+
+@enduml
