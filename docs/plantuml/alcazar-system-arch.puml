@@ -22,6 +22,7 @@ node RPI #peachpuff [
 
 rectangle GPS #peachpuff [
  GPS USB
+ Model: (?)
 ]
 
 rectangle IMU [
@@ -42,6 +43,7 @@ node NMEA_Mux #peachpuff [
  NMEA Multiplexer
  ----
  bidirectional Seatalk1
+ Model: (?)
 ]
 
 node NMEA_Eth_Mux [
@@ -82,10 +84,12 @@ node GPS_Ant #palegreen [
 
 node Eth_Hub #peachpuff [
  Ethernet Hub
+ Model: (?)
 ]
 
 node USB_Hub #peachpuff [
  USB Hub
+ Model: (?)
 ]
 
 node Router #peachpuff [
@@ -118,6 +122,8 @@ node Touchscreen  #peachpuff [
 
 rectangle Speakers [
  Speakers
+ Model: (?)
+ Bluetooth, Amp, Power (?)
 ]
 
 rectangle Mic [
@@ -143,6 +149,9 @@ node SSB [
 
 cloud WiFi_Local #peachpuff [
  Local WiFi
+ ----
+ 5GHz Band
+ Wi-Fi ac
 ]
 
 rectangle Iridium #palegreen [
