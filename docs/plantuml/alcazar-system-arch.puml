@@ -120,8 +120,12 @@ node Eth_Hub #peachpuff [
 
 node USB_Hub #peachpuff [
  USB Hub
- Voltage: (12v?)
+ ----
+ Non-backfeeding power
+ Powered
+ Voltage: (12v)
  Model: (?)
+ Ports: 7 (USB 2.0?)
 ]
 
 node Router #peachpuff [
