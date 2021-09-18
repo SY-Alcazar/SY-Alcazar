@@ -375,7 +375,7 @@ SiriusXM -- NMEA_2000
 NMEA_2000 -- NMEA_2000
 
 Eth_Hub -r- Router
-Eth_Hub -- Radar
+Eth_Hub -[dashed]- Radar
 Eth_Hub -- NAS
 Eth_Hub -- NMEA_Eth_Mux
 Eth_Hub -u- Dish_Router
