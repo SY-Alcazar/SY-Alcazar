@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1266.25px" preserveAspectRatio="none" style="width:1873px;height:1266px;" version="1.1" viewBox="0 0 1873 1266" width="1873.75px" zoomAndPan="magnify"><defs><filter height="300%" id="f19whcx82pq8t3" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f50827fad462c3f51a79aa3f1564e3ff]
+entity Skipper--><ellipse cx="688.75" cy="24.3722" fill="#FEFECE" filter="url(#f19whcx82pq8t3)" rx="10" ry="10" style="stroke:#A80036;stroke-width:1.875;"/><path d="M688.75,34.3722 L688.75,68.1222 M672.5,44.3722 L705,44.3722 M688.75,68.1222 L672.5,86.8722 M688.75,68.1222 L705,86.8722 " fill="none" filter="url(#f19whcx82pq8t3)" style="stroke:#A80036;stroke-width:1.875;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="60" x="658.75" y="111.9137">Skipper</text><!--MD5=[56bb6c3bc4df8cdefb957cc5b3ef3a7e]
+entity RPI--><polygon fill="#98FB98" filter="url(#f19whcx82pq8t3)" points="578.125,588.7472,590.625,576.2472,764.375,576.2472,764.375,721.3058,751.875,733.8058,578.125,733.8058,578.125,588.7472" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="751.875" x2="764.375" y1="588.7472" y2="576.2472"/><line style="stroke:#000000;stroke-width:1.875;" x1="578.125" x2="751.875" y1="588.7472" y2="588.7472"/><line style="stroke:#000000;stroke-width:1.875;" x1="751.875" x2="751.875" y1="588.7472" y2="733.8058"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="116.25" x="596.875" y="619.4137">Rpi4, BBN OS</text><line style="stroke:#000000;stroke-width:1.25;" x1="578.125" x2="751.875" y1="623.2589" y2="623.2589"/><line style="stroke:#000000;stroke-width:1.25;" x1="751.875" x2="764.375" y1="623.2589" y2="610.7589"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="82.5" x="596.875" y="646.4254">Local WiFi</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="136.25" x="596.875" y="668.4371">CanBus Interface</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="95" x="596.875" y="690.4488">Sound Card</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="35" x="596.875" y="712.4606">SSD</text><!--MD5=[cd1d357e028b96f42ee72ab526715f53]
+entity GPS--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="47.0117" style="stroke:#000000;stroke-width:1.875;" width="100" x="612.5" y="911.8722"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="625" y="942.5387">GPS USB</text><!--MD5=[ae8265c62b5fdfc486198cf91618d43d]
+entity IMU--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="79.0234" style="stroke:#000000;stroke-width:1.875;" width="191.25" x="343.125" y="615.6222"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="28.75" x="355.625" y="646.2887">IMU</text><line style="stroke:#000000;stroke-width:1.25;" x1="344.375" x2="533.125" y1="650.1339" y2="650.1339"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="166.25" x="355.625" y="673.3004">compass, gyro, accel</text><!--MD5=[b17a41457b887f0466e22bd7e05c4601]
+entity NMEA_2000--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="123.0469" style="stroke:#000000;stroke-width:1.875;" width="157.5" x="70" y="874.3722"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="130" x="82.5" y="905.0387">NMEA2000 Bus</text><line style="stroke:#000000;stroke-width:1.25;" x1="71.25" x2="226.25" y1="908.8839" y2="908.8839"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="126.25" x="82.5" y="932.0504">engine sensors,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="132.5" x="82.5" y="954.0621">fishfinder, sonar,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="23.75" x="82.5" y="976.0738">etc</text><!--MD5=[6eed89ef60fd1dd7e5ad5481c6afc096]
+entity NMEA_Mux--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="1488.125,902.4972,1500.625,889.9972,1706.875,889.9972,1706.875,969.0206,1694.375,981.5206,1488.125,981.5206,1488.125,902.4972" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="1694.375" x2="1706.875" y1="902.4972" y2="889.9972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1488.125" x2="1694.375" y1="902.4972" y2="902.4972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1694.375" x2="1694.375" y1="902.4972" y2="981.5206"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="136.25" x="1506.875" y="933.1637">NMEA Multiplexer</text><line style="stroke:#000000;stroke-width:1.25;" x1="1488.125" x2="1694.375" y1="937.0089" y2="937.0089"/><line style="stroke:#000000;stroke-width:1.25;" x1="1694.375" x2="1706.875" y1="937.0089" y2="924.5089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="168.75" x="1506.875" y="960.1754">bidirectional Seatalk1</text><!--MD5=[ddada9cd7021283f3e70010119e05df8]
+entity NMEA_Eth_Mux--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="1196.875,637.4972,1209.375,624.9972,1455.625,624.9972,1455.625,672.0089,1443.125,684.5089,1196.875,684.5089,1196.875,637.4972" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="1443.125" x2="1455.625" y1="637.4972" y2="624.9972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1196.875" x2="1443.125" y1="637.4972" y2="637.4972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1443.125" x2="1443.125" y1="637.4972" y2="684.5089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="208.75" x="1215.625" y="668.1637">NMEA Ethernet Multiplexer</text><!--MD5=[1eaf4d2f8be208adf81d4b0ad8be7432]
+entity NMEA_0183--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="123.0469" style="stroke:#000000;stroke-width:1.875;" width="210" x="1233.75" y="874.3722"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="172.5" x="1246.25" y="905.0387">NMEA 0183 Devices</text><line style="stroke:#000000;stroke-width:1.25;" x1="1235" x2="1442.5" y1="908.8839" y2="908.8839"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="185" x="1246.25" y="932.0504">AIS transducer/receiver</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="160" x="1246.25" y="954.0621">GPS, VHF, compass</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="158.75" x="1246.25" y="976.0738">Wind, Depth, Speed</text><!--MD5=[31e3ec59327e273962ce661ad70afaa5]
+entity AP--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="47.0117" style="stroke:#000000;stroke-width:1.875;" width="93.75" x="1550.625" y="1159.9972"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="68.75" x="1563.125" y="1190.6637">Autopilot</text><!--MD5=[547615c2c8915297a73af811d5dbf318]
+entity Eth_Hub--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="1426.875,389.9972,1439.375,377.4972,1580.625,377.4972,1580.625,424.5089,1568.125,437.0089,1426.875,437.0089,1426.875,389.9972" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="1568.125" x2="1580.625" y1="389.9972" y2="377.4972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1426.875" x2="1568.125" y1="389.9972" y2="389.9972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1568.125" x2="1568.125" y1="389.9972" y2="437.0089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="103.75" x="1445.625" y="420.6637">Ethernet Hub</text><!--MD5=[7968f28c13df0538bc57173754511f0e]
+entity USB_Hub--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="448.75,918.1222,461.25,905.6222,568.75,905.6222,568.75,952.6339,556.25,965.1339,448.75,965.1339,448.75,918.1222" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="556.25" x2="568.75" y1="918.1222" y2="905.6222"/><line style="stroke:#000000;stroke-width:1.875;" x1="448.75" x2="556.25" y1="918.1222" y2="918.1222"/><line style="stroke:#000000;stroke-width:1.875;" x1="556.25" x2="556.25" y1="918.1222" y2="965.1339"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="70" x="467.5" y="948.7887">USB Hub</text><!--MD5=[953a8c67cfe21abaf9bf45dad8506ca8]
+entity Router--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="1624.375,389.9972,1636.875,377.4972,1805.625,377.4972,1805.625,424.5089,1793.125,437.0089,1624.375,437.0089,1624.375,389.9972" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="1793.125" x2="1805.625" y1="389.9972" y2="377.4972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1624.375" x2="1793.125" y1="389.9972" y2="389.9972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1793.125" x2="1793.125" y1="389.9972" y2="437.0089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="131.25" x="1643.125" y="420.6637">LTE/WiFi Router</text><!--MD5=[4c7a5f0f4d710d941c4df063500e34ba]
+entity Dish_Router--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="69.0234" style="stroke:#000000;stroke-width:1.875;" width="153.75" x="1449.375" y="191.2472"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="128.75" x="1461.875" y="221.9137">StarLink Router,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="35" x="1461.875" y="243.9254">Dish</text><!--MD5=[af2495f9a90a9f78578178908d6e69bd]
+entity Radar--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="1499.375,637.4972,1511.875,624.9972,1598.125,624.9972,1598.125,672.0089,1585.625,684.5089,1499.375,684.5089,1499.375,637.4972" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="1585.625" x2="1598.125" y1="637.4972" y2="624.9972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1499.375" x2="1585.625" y1="637.4972" y2="637.4972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1585.625" x2="1585.625" y1="637.4972" y2="684.5089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="48.75" x="1518.125" y="668.1637">Radar</text><!--MD5=[330778c508571bc43f7e5523a03ca602]
+entity Touchscreen--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="585.625,389.9972,598.125,377.4972,801.875,377.4972,801.875,424.5089,789.375,437.0089,585.625,437.0089,585.625,389.9972" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="789.375" x2="801.875" y1="389.9972" y2="377.4972"/><line style="stroke:#000000;stroke-width:1.875;" x1="585.625" x2="789.375" y1="389.9972" y2="389.9972"/><line style="stroke:#000000;stroke-width:1.875;" x1="789.375" x2="789.375" y1="389.9972" y2="437.0089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="166.25" x="604.375" y="420.6637">HDMI Touchscreen</text><!--MD5=[4c50005c0fadedfb0a14f6d1969de37e]
+entity Speakers--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="47.0117" style="stroke:#000000;stroke-width:1.875;" width="100" x="247.5" y="383.7472"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="260" y="414.4137">Speakers</text><!--MD5=[cf5c42a4fc4011dea04a3daf6c677d92]
+entity Mic--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="47.0117" style="stroke:#000000;stroke-width:1.875;" width="117.5" x="300" y="201.8722"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="92.5" x="312.5" y="232.5387">Microphone</text><!--MD5=[1b76df3a4bd008a21abb34082ebb9919]
+entity Cameras--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="145.0586" style="stroke:#000000;stroke-width:1.875;" width="150" x="391.25" y="334.9972"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="71.25" x="403.75" y="365.6637">Cameras</text><line style="stroke:#000000;stroke-width:1.25;" x1="392.5" x2="540" y1="369.5089" y2="369.5089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="125" x="403.75" y="392.6754">WebCam, Mast,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="100" x="403.75" y="414.6871">Night (FLIR),</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="117.5" x="403.75" y="436.6988">low light vision,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="120" x="403.75" y="458.7106">IP, docking, etc</text><!--MD5=[d92e9b93d5ce4574427d5f042afd2321]
+entity SDR--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="613.75,1166.2472,626.25,1153.7472,751.25,1153.7472,751.25,1200.7589,738.75,1213.2589,613.75,1213.2589,613.75,1166.2472" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="738.75" x2="751.25" y1="1166.2472" y2="1153.7472"/><line style="stroke:#000000;stroke-width:1.875;" x1="613.75" x2="738.75" y1="1166.2472" y2="1166.2472"/><line style="stroke:#000000;stroke-width:1.875;" x1="738.75" x2="738.75" y1="1166.2472" y2="1213.2589"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="87.5" x="632.5" y="1196.9137">SDR Radio</text><!--MD5=[6ba27cb6ab6c98fb8258247a8e3f62be]
+entity SSB--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="88.75,208.1222,101.25,195.6222,223.75,195.6222,223.75,242.6339,211.25,255.1339,88.75,255.1339,88.75,208.1222" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="211.25" x2="223.75" y1="208.1222" y2="195.6222"/><line style="stroke:#000000;stroke-width:1.875;" x1="88.75" x2="211.25" y1="208.1222" y2="208.1222"/><line style="stroke:#000000;stroke-width:1.875;" x1="211.25" x2="211.25" y1="208.1222" y2="255.1339"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="85" x="107.5" y="238.7887">SSB Radio</text><!--MD5=[dd29c4e1cef6fbff2e61a9551f8f2bf2]
+entity WiFi_Local--><path d="M858.3876,387.861 C862.94,379.9075 868.4368,379.9509 874.4992,386.1408 C878.7729,377.0916 886.0096,377.0239 891.6905,384.6939 C894.9586,376.3406 900.1487,375.5817 906.7908,380.9923 C913.5895,372.8609 921.1824,374.5095 925.2519,383.8724 C932.5574,377.7703 937.7259,379.6179 941.599,387.8004 C945.5909,380.2839 953.1021,381.0211 957.0794,387.8163 C969.4762,389.5875 974.285,396.7663 966.5721,407.9969 C972.5458,417.7082 971.1593,427.3612 957.6195,428.5889 C953.7437,437.2607 949.0777,439.5823 941.6847,432.047 C937.5366,440.1033 930.4355,442.215 923.7865,434.9729 C920.1858,442.2947 915.1752,445.2073 908.688,437.9653 C901.6124,446.4113 893.6058,445.2487 889.7604,434.7397 C882.3258,440.0173 877.4612,439.3556 874.4307,430.0956 C868.1025,437.3237 861.3513,437.9993 857.197,427.9297 C845.3697,424.9571 843.8975,419.0539 850.9632,409.6413 C842.0428,400.2701 846.4464,390.121 858.3876,387.861 " fill="#FEFECE" filter="url(#f19whcx82pq8t3)" style="stroke:#000000;stroke-width:1.875;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="82.5" x="865" y="414.4137">Local WiFi</text><!--MD5=[82bbb9a7a666b856fa28a649fd3171aa]
+entity Iridium--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="47.0117" style="stroke:#000000;stroke-width:1.875;" width="132.5" x="1020" y="201.8722"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="107.5" x="1032.5" y="232.5387">Iridium Phone</text><!--MD5=[8f0c441f12fb738c5e80b28ccd1b0a87]
+entity Other_Sensors--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="211.0938" style="stroke:#000000;stroke-width:1.875;" width="287.5" x="756.25" y="829.9972"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="120" x="768.75" y="860.6637">Other_Sensors</text><line style="stroke:#000000;stroke-width:1.25;" x1="757.5" x2="1042.5" y1="864.5089" y2="864.5089"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="122.5" x="768.75" y="887.6754">IoT, 1w, i2c, etc</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="156.25" x="768.75" y="909.6871">batteries monitoring</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="262.5" x="768.75" y="931.6988">chargers (wind, solar, diesel gen)</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="82.5" x="768.75" y="953.7106">fluid levels</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="200" x="768.75" y="975.7223">env temp/pressure/humid</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="205" x="768.75" y="997.734">dangerous gases sensors</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="181.25" x="768.75" y="1019.7457">lightning strike sensors</text><!--MD5=[869fbf9b9ca9ac4bdf61f7068ab1ff9c]
+entity Remote_Desktop--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="47.0117" style="stroke:#000000;stroke-width:1.875;" width="208.75" x="1196.875" y="201.8722"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="183.75" x="1209.375" y="232.5387">Remote Desktop (VNC)</text><!--MD5=[0313ddc4f8ed0f4991a51edae0b1647c]
+entity AC--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="1087.5,907.4972,1100,894.9972,1190,894.9972,1190,964.0206,1177.5,976.5206,1087.5,976.5206,1087.5,907.4972" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="1177.5" x2="1190" y1="907.4972" y2="894.9972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1087.5" x2="1177.5" y1="907.4972" y2="907.4972"/><line style="stroke:#000000;stroke-width:1.875;" x1="1177.5" x2="1177.5" y1="907.4972" y2="976.5206"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="28.75" x="1106.25" y="938.1637">A/C</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="52.5" x="1106.25" y="960.1754">Heater</text><!--MD5=[cec077422889c5d3cb551e1217c37df7]
+entity Pumps--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="1250.625,1128.7472,1263.125,1116.2472,1399.375,1116.2472,1399.375,1239.2941,1386.875,1251.7941,1250.625,1251.7941,1250.625,1128.7472" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="1386.875" x2="1399.375" y1="1128.7472" y2="1116.2472"/><line style="stroke:#000000;stroke-width:1.875;" x1="1250.625" x2="1386.875" y1="1128.7472" y2="1128.7472"/><line style="stroke:#000000;stroke-width:1.875;" x1="1386.875" x2="1386.875" y1="1128.7472" y2="1251.7941"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="53.75" x="1269.375" y="1159.4137">Pumps</text><line style="stroke:#000000;stroke-width:1.25;" x1="1250.625" x2="1386.875" y1="1163.2589" y2="1163.2589"/><line style="stroke:#000000;stroke-width:1.25;" x1="1386.875" x2="1399.375" y1="1163.2589" y2="1150.7589"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="38.75" x="1269.375" y="1186.4254">Bilge</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="98.75" x="1269.375" y="1208.4371">Fresh Water</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="95" x="1269.375" y="1230.4488">Black Water</text><!--MD5=[c74dee767baeeec0e713c54a8a4634dc]
+entity Fridge--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="795.625,1144.3722,808.125,1131.8722,941.875,1131.8722,941.875,1222.9073,929.375,1235.4073,795.625,1235.4073,795.625,1144.3722" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="929.375" x2="941.875" y1="1144.3722" y2="1131.8722"/><line style="stroke:#000000;stroke-width:1.875;" x1="795.625" x2="929.375" y1="1144.3722" y2="1144.3722"/><line style="stroke:#000000;stroke-width:1.875;" x1="929.375" x2="929.375" y1="1144.3722" y2="1235.4073"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="51.25" x="814.375" y="1175.0387">Fridge</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="96.25" x="814.375" y="1197.0504">Watermaker</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="66.25" x="814.375" y="1219.0621">Live well</text><!--MD5=[0b2190a355246a80d89d74c5c2c53ceb]
+entity Lights_Fans--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="135.0586" style="stroke:#000000;stroke-width:1.875;" width="221.25" x="985.625" y="1116.2472"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="165" x="998.125" y="1146.9137">Lights: (Nav, Anchor,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="175" x="998.125" y="1168.9254">Running, Mast, Cabin,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="196.25" x="998.125" y="1190.9371">Underwater, Search, etc)</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="40" x="998.125" y="1212.9488">Fans</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="156.25" x="998.125" y="1234.9606">Bilge/Engine Blower</text><!--MD5=[593e445c9278762cb4ef7b840df82fac]
+entity Keyboard_Mouse--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="69.0234" style="stroke:#000000;stroke-width:1.875;" width="101.25" x="1010.625" y="373.1222"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="76.25" x="1023.125" y="403.7887">Keyboard</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="52.5" x="1023.125" y="425.8004">Mouse</text><!--MD5=[6068ed0baf2edbbb46a7f906664363da]
+entity Weather--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="91.0352" style="stroke:#000000;stroke-width:1.875;" width="121.25" x="448.125" y="1138.1222"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="58.75" x="460.625" y="1168.7887">NavTex</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="96.25" x="460.625" y="1190.8004">WeatherFax</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="83.75" x="460.625" y="1212.8121">Barograph</text><!--MD5=[0df37b53dbcc900899e095c990e30b8f]
+entity SiriusXM--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="47.0117" style="stroke:#000000;stroke-width:1.875;" width="151.25" x="73.125" y="631.2472"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="126.25" x="85.625" y="661.9137">SiriusXM Marine</text><!--MD5=[d59b03f458f75ee04d94168ba7ec459b]
+entity SmartPhone--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="69.0234" style="stroke:#000000;stroke-width:1.875;" width="131.25" x="755.625" y="191.2472"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="106.25" x="768.125" y="221.9137">SmartPhones</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="58.75" x="768.125" y="243.9254">Tablets</text><!--MD5=[13e88d8e4422c8d855b54f0d2bc171be]
+entity NAS--><path d="M1641.875,567.4972 C1641.875,554.9972 1753.75,554.9972 1753.75,554.9972 C1753.75,554.9972 1865.625,554.9972 1865.625,567.4972 L1865.625,742.8292 C1865.625,755.3292 1753.75,755.3292 1753.75,755.3292 C1753.75,755.3292 1641.875,755.3292 1641.875,742.8292 L1641.875,567.4972 " fill="#FEFECE" filter="url(#f19whcx82pq8t3)" style="stroke:#000000;stroke-width:1.875;"/><path d="M1641.875,567.4972 C1641.875,579.9972 1753.75,579.9972 1753.75,579.9972 C1753.75,579.9972 1865.625,579.9972 1865.625,567.4972 " fill="none" style="stroke:#000000;stroke-width:1.875;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="33.75" x="1654.375" y="603.1637">NAS</text><path d="M1641.875,600.7589 C1641.875,613.2589 1753.75,613.2589 1753.75,613.2589 C1753.75,613.2589 1865.625,613.2589 1865.625,600.7589 " fill="none" style="stroke:#000000;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="123.75" x="1654.375" y="630.1754">Audio/Video Lib</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="198.75" x="1654.375" y="652.1871">Charts, Backups, Tracks,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="93.75" x="1654.375" y="674.1988">Docs, Logs,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="188.75" x="1654.375" y="696.2106">Crew Docs, Float Plans,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="183.75" x="1654.375" y="718.2223">Inventory, Provisioning,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="170" x="1654.375" y="740.234">Time Series Data, etc</text><!--MD5=[ee9653e0a8f11fcc17536c9839054b2a]
+entity Winches--><polygon fill="#FEFECE" filter="url(#f19whcx82pq8t3)" points="20,1144.3722,32.5,1131.8722,202.5,1131.8722,202.5,1222.9073,190,1235.4073,20,1235.4073,20,1144.3722" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="190" x2="202.5" y1="1144.3722" y2="1131.8722"/><line style="stroke:#000000;stroke-width:1.875;" x1="20" x2="190" y1="1144.3722" y2="1144.3722"/><line style="stroke:#000000;stroke-width:1.875;" x1="190" x2="190" y1="1144.3722" y2="1235.4073"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="132.5" x="38.75" y="1175.0387">Anchor Windlass</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="121.25" x="38.75" y="1197.0504">Power Winches</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="105" x="38.75" y="1219.0621">Bow Thruster</text><!--MD5=[48e79d9335dd0cd53682a5a492aea5d9]
+entity Cloud_Internet--><path d="M1348.3249,24.9234 C1351.6405,16.6665 1356.8549,15.8876 1363.3491,21.4735 C1367.2811,11.4333 1372.5587,10.5975 1379.843,18.3692 C1384.1557,10.0676 1392.1891,8.2701 1397.5084,17.346 C1402.4081,7.5 1410.2557,7.7808 1416.2844,16.1845 C1420.8492,9.7135 1428.1543,9.7255 1431.6711,17.3301 C1437.7734,11.714 1444.9128,11.7745 1448.017,20.7001 C1453.0752,13.3839 1460.0643,13.0942 1465.2536,20.5471 C1472.8318,11.6103 1478.4803,13.4367 1483.4192,23.1217 C1492.2697,27.6363 1491.9352,33.5268 1484.4305,39.078 C1491.8416,41.515 1491.6113,45.6413 1487.5427,51.0601 C1495.2146,54.8234 1497.748,60.4135 1490.3454,66.8522 C1495.1381,72.0074 1494.1046,76.8505 1487.0462,78.7077 C1492.0161,83.8717 1492.2112,88.6926 1485.3063,92.3412 C1491.9234,97.8767 1491.2823,102.4353 1483.7492,106.404 C1478.5419,114.4617 1473.4879,116.8264 1466.3513,108.4459 C1461.5595,116.1809 1454.58,117.0148 1449.9644,108.2706 C1445.4871,118.4305 1436.9267,116.9207 1431.6287,109.1079 C1428.0042,116.8481 1419.523,119.0117 1413.9636,111.3233 C1407.6773,118.803 1402.7061,117.2561 1398.6707,109.1191 C1392.7987,118.2836 1387.5206,117.5035 1381.4669,109.299 C1376.229,117.5052 1370.0741,116.2251 1364.7131,109.4364 C1357.0272,117.3933 1350.3677,117.5048 1345.6607,106.451 C1339.5666,102.6769 1339.0439,96.9631 1345.3913,92.941 C1338.1209,89.039 1338,84.217 1344.697,79.5887 C1337.4002,75.3825 1338.1033,69.9965 1344.0921,65.2306 C1338.503,60.3968 1337.9519,55.6782 1344.9284,51.6163 C1338.3754,46.4404 1339.4757,41.057 1347.2023,38.3241 C1340.5837,33.1431 1341.8445,29.0071 1348.3249,24.9234 " fill="#FEFECE" filter="url(#f19whcx82pq8t3)" style="stroke:#000000;stroke-width:1.875;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="70" x="1354.375" y="49.4137">Internet</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="113.75" x="1354.375" y="71.4254">Cloud Storage</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="118.75" x="1354.375" y="93.4371">Cloud Services</text><!--MD5=[f38da3986c5ca1dec060c2524b9ccddc]
+entity Lora--><path d="M258.5312,1143.89 C261.0793,1137.1861 265.0686,1136.3418 270.4492,1140.8897 C273.3517,1134.2943 279.9482,1133.2326 284.9079,1138.3504 C288.6674,1132.5475 294.4927,1133.543 297.6712,1139.0085 C301.7569,1129.7778 307.1286,1130.6659 313.7271,1136.2931 C316.404,1128.9714 320.8372,1128.2659 326.1459,1133.7386 C332.4104,1128.3483 336.6579,1130.1078 340.0991,1136.9572 C345.5065,1130.864 349.4206,1132.9111 352.993,1138.9133 C356.6795,1133.2753 363.2342,1132.9695 366.5122,1139.3719 C372.0644,1133.0024 377.2631,1134.6853 380.1219,1142.0423 C385.3244,1134.115 391.3842,1134.6588 396.1854,1142.4523 C403.8209,1145.7798 403.6837,1152.3857 397.6091,1157.0502 C404.6418,1160.6817 405.8249,1165.6742 399.1775,1170.8594 C408.1461,1173.2171 408.3223,1179.38 403.1273,1185.5466 C409.7328,1191.2793 406.8179,1197.7017 399.7421,1200.2938 C405.4781,1205.1773 404.9411,1210.1787 397.8945,1213.2375 C403.9873,1219.0052 403.1375,1224.5999 395.0207,1227.5056 C390.8974,1232.7357 386.3469,1232.9273 382.1813,1227.5567 C377.7085,1233.6894 372.4979,1234.3262 368.6395,1226.9413 C364.8222,1235.3575 360.0796,1235.8714 354.0038,1229.1207 C350.1453,1234.6507 345.3642,1235.5731 341.3453,1229.2926 C337.0767,1235.415 331.8738,1235.6536 327.0663,1229.9429 C322.0889,1234.9395 317.2507,1234.1271 313.7681,1228.1342 C309.3891,1233.8737 302.9049,1235.1085 299.2118,1227.3922 C295.0237,1233.2298 289.7326,1234.6706 285.6847,1227.2491 C281.4474,1233.2784 277.0853,1233.8917 271.7998,1228.5263 C266.0561,1233.5698 260.8335,1233.2821 257.8382,1225.5279 C251.3249,1222.8688 249.0803,1217.2087 255.5528,1212.3052 C248.1043,1208.1063 247.9136,1203.2707 255.2045,1198.6947 C248.6496,1193.9128 249.0611,1189.979 255.571,1185.5618 C248.9064,1180.1023 250.0301,1175.0287 257.0622,1170.9687 C250.9561,1166.8952 251.4735,1161.2664 257.4344,1157.5272 C252.039,1152.6444 251.4996,1147.7733 258.5312,1143.89 " fill="#FEFECE" filter="url(#f19whcx82pq8t3)" style="stroke:#000000;stroke-width:1.875;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="75" x="265" y="1168.7887">LoraWAN</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="117.5" x="265" y="1190.8004">Asset Tracking</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="120" x="265" y="1212.8121">Dinghy Locator</text><!--MD5=[3ff5d2fb9a8117c537632aae671cabcb]
+entity Esp32--><rect fill="#FEFECE" filter="url(#f19whcx82pq8t3)" height="69.0234" style="stroke:#000000;stroke-width:1.875;" width="95" x="293.75" y="901.2472"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="70" x="306.25" y="931.9137">m5stack,</text><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="60" x="306.25" y="953.9254">arduino</text><!--MD5=[c6d492c1e608e21002a1e79a049df954]
+link IMU to RPI--><path codeLine="210" d="M534.5625,654.9972 C548.9875,654.9972 563.4,654.9972 577.8125,654.9972 " fill="none" id="IMU-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[a860cb1a85174d4976dae9c4f32e49f8]
+link RPI to NMEA_2000--><path codeLine="211" d="M589.675,733.7722 C578.925,741.6847 567.6625,749.0097 556.25,754.9972 C440.275,815.8722 387.3375,769.3347 271.25,829.9972 C248.9625,841.6472 227.2,857.9972 208.3625,874.3222 " fill="none" id="RPI-NMEA_2000" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[f75ecebad45d24d2cfeff8c08b96d55d]
+link RPI to NMEA_Mux--><path codeLine="212" d="M764.7125,674.1972 C960.9375,712.2347 1403,799.9472 1466.25,829.9972 C1497.8,844.9847 1528.6125,868.8597 1552.45,889.9972 " fill="none" id="RPI-NMEA_Mux" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[3577f1ad49970e59a1e1697b6041c28e]
+link Eth_Hub to RPI--><path codeLine="213" d="M1426.55,431.4722 C1273.075,476.6347 930.175,577.5472 764.45,626.3222 " fill="none" id="Eth_Hub-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[1d20bbed48bf86b90ee5f13bc892e6f4]
+link RPI to USB_Hub--><path codeLine="214" d="M625.7625,734.0847 C592.4375,791.1347 549.075,865.3597 525.6125,905.5222 " fill="none" id="RPI-USB_Hub" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[920310a45a910abea0e78fc3f928b9c7]
+link Touchscreen to RPI--><path codeLine="215" d="M691.075,437.8097 C687.975,471.6597 682.7125,528.9222 678.3875,575.9847 " fill="none" id="Touchscreen-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[e542bf0be54ca915b2a2c465769198ce]
+link Cameras to RPI--><path codeLine="216" d="M526.1,480.2722 C551.2625,510.3597 580.6125,545.4347 606.3125,576.1347 " fill="none" id="Cameras-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[738bdf1011746a1c073c591ef970d801]
+reverse link Speakers to RPI--><path codeLine="217" d="M320.075,436.2097 C333.1125,450.7222 350.5125,467.9722 368.75,479.9972 C443.675,529.4097 479.5,508.4722 556.25,554.9972 C566.6,561.2722 576.95,568.4847 586.95,576.0847 " fill="none" id="Speakers-backto-RPI" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="315.825,431.3972,319.5398,443.1344,319.9684,436.0764,327.0265,436.505,315.825,431.3972" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[e8f921cc9d34d3902ba4bcef1d5bd4c3]
+link Mic to RPI--><path codeLine="218" d="M313.3375,249.5347 C282.15,267.8597 243.2,296.8722 225,334.9972 C197.2375,393.1472 184.775,429.6472 225,479.9972 C319.2125,597.9347 421.4,487.1597 556.25,554.9972 C567.8875,560.8472 579.325,568.1347 590.2,576.0722 " fill="none" id="Mic-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[9d6d2f6c2f4d2fc3bb3ff0dee1317c54]
+link SSB to RPI--><path codeLine="219" d="M150.4375,255.9722 C141.825,308.2222 132.3875,418.2347 190,479.9972 C303.3375,601.4972 407.05,481.8597 556.25,554.9972 C568.0625,560.7847 579.65,568.0847 590.65,576.0722 " fill="none" id="SSB-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[ba43404d2398351bd02a197b89c6dc04]
+link Iridium to RPI--><path codeLine="220" d="M1100.65,249.4722 C1128.7375,296.7222 1183.9,407.5847 1133.75,479.9972 C1050.725,599.8722 874.0125,637.1597 764.6625,648.6847 " fill="none" id="Iridium-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[72d1981d7f6e9ae87e7ce2d696ef1c70]
+link RPI to Other_Sensors--><path codeLine="221" d="M735.275,734.0847 C759.5875,763.6597 787.7125,797.8472 813.75,829.5097 " fill="none" id="RPI-Other_Sensors" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[e6b62623cb5cffca99b55a6fc459f471]
+link RPI to Esp32--><path codeLine="222" d="M584.075,733.9847 C574.8625,741.3222 565.4875,748.4597 556.25,754.9972 C501.825,793.5597 477.0375,786.7597 426.25,829.9972 C401.875,850.7472 379.2375,879.1847 363.475,901.1347 " fill="none" id="RPI-Esp32" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[abd7622213c1ceda57fd7e6c8ce2488a]
+link WiFi_Local to RPI--><path codeLine="223" d="M878.375,437.8097 C845.9125,471.6597 790.975,528.9222 745.8375,575.9847 " fill="none" id="WiFi_Local-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[9befc12befc76c6c24a0e27f7270b253]
+link Keyboard_Mouse to RPI--><path codeLine="224" d="M1031.2125,441.9847 C1018.775,454.7097 1003.775,468.8472 988.75,479.9972 C918.25,532.3472 830.1,579.3222 764.5875,611.1847 " fill="none" id="Keyboard_Mouse-RPI" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[a15dace8b9997a4e161f7e6bb21c3756]
+link SmartPhone to WiFi_Local--><path codeLine="226" d="M837.0375,260.1847 C852.975,293.8222 877.35,345.2597 892.5125,377.2597 " fill="none" id="SmartPhone-WiFi_Local" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[a6a6198443ed7f46598e3abcaaf7a198]
+link SiriusXM to NMEA_2000--><path codeLine="228" d="M148.75,679.0097 C148.75,721.1722 148.75,812.6972 148.75,873.9347 " fill="none" id="SiriusXM-NMEA_2000" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[1d44c55da3101301759fbe3aab8761da]
+link NMEA_2000 to NMEA_2000--><path codeLine="229" d="M227.6875,889.2597 C252.0875,890.1972 271.25,905.6472 271.25,935.6222 C271.25,965.5972 252.0875,981.0472 227.6875,981.9847 " fill="none" id="NMEA_2000-NMEA_2000" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[f06790075d9412e28e90e4ac15acc0e3]
+link Eth_Hub to Router--><path codeLine="231" d="M1580.9,407.4972 C1595.225,407.4972 1609.5375,407.4972 1623.8625,407.4972 " fill="none" id="Eth_Hub-Router" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[4e13fc5b7ed4d5c8bb5a843a2b474eca]
+link Eth_Hub to Radar--><path codeLine="232" d="M1509.0875,437.8097 C1517.75,484.9722 1534.7625,577.5847 1543.4125,624.7222 " fill="none" id="Eth_Hub-Radar" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[0ff0ce0d78f63490cbe2abe10619b3e8]
+link Eth_Hub to NAS--><path codeLine="233" d="M1533.4125,437.8097 C1562.9,466.7097 1609.825,512.6972 1652.8,554.8097 " fill="none" id="Eth_Hub-NAS" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[259f080a67dae40cff9a98e2c44be4e9]
+link Eth_Hub to NMEA_Eth_Mux--><path codeLine="234" d="M1482.6875,437.8097 C1448.525,484.9722 1381.425,577.5847 1347.275,624.7222 " fill="none" id="Eth_Hub-NMEA_Eth_Mux" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[fdba92f7cd499ccd998d05999f71f6ae]
+link Dish_Router to Eth_Hub--><path codeLine="235" d="M1522.075,260.1847 C1517.85,293.8222 1511.4,345.2597 1507.3875,377.2597 " fill="none" id="Dish_Router-Eth_Hub" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[fbe332a3304dc4c8c3dfaece74a779f6]
+link USB_Hub to SDR--><path codeLine="237" d="M529.3625,966.0097 C562.8,1013.2847 628.4875,1106.1472 661.9125,1153.3972 " fill="none" id="USB_Hub-SDR" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[4ba09ff32a53e36c5fb85e6eec1de587]
+link USB_Hub to Weather--><path codeLine="238" d="M508.75,966.0097 C508.75,1008.5847 508.75,1088.1222 508.75,1138.0347 " fill="none" id="USB_Hub-Weather" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[bc87505a24fe564b5b4878ca4cf904ff]
+link USB_Hub to GPS--><path codeLine="239" d="M568.8125,935.6222 C583.325,935.6222 597.8375,935.6222 612.3625,935.6222 " fill="none" id="USB_Hub-GPS" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[2a0b371ec03d2c21e471fa956f48a495]
+link Other_Sensors to AC--><path codeLine="241" d="M1044.0875,935.6222 C1058.5125,935.6222 1072.9375,935.6222 1087.35,935.6222 " fill="none" id="Other_Sensors-AC" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[cbb222f50bcb791e9720287055fe13dd]
+link Other_Sensors to Fridge--><path codeLine="242" d="M886.7,1041.3972 C882.7375,1072.5972 878.55,1105.4222 875.2375,1131.5472 " fill="none" id="Other_Sensors-Fridge" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[bde99af21072dc4abd6c3e9790e945d2]
+link Other_Sensors to Lights_Fans--><path codeLine="243" d="M983.5125,1041.3972 C1003.75,1066.7222 1024.8375,1093.1222 1043.225,1116.1347 " fill="none" id="Other_Sensors-Lights_Fans" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[9816221c84b92aca30c282d28f000dea]
+link Other_Sensors to Pumps--><path codeLine="244" d="M1043.9625,1028.8097 C1051.45,1033.0972 1058.9125,1037.2722 1066.25,1041.2472 C1136.1875,1079.1347 1159.625,1076.8847 1228.75,1116.2472 C1235.8,1120.2597 1243,1124.6347 1250.125,1129.1722 " fill="none" id="Other_Sensors-Pumps" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[8fae6815bbbf7683f8ebe54c0ddd87fc]
+link NMEA_0183 to NMEA_Mux--><path codeLine="246" d="M1443.8625,935.6222 C1458.475,935.6222 1473.075,935.6222 1487.675,935.6222 " fill="none" id="NMEA_0183-NMEA_Mux" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[33c6fedd815fb747892f9271a960cf0a]
+link NMEA_Eth_Mux to NMEA_0183--><path codeLine="247" d="M1327.5625,685.4847 C1329.5625,729.9722 1333.4125,815.6472 1336.0375,873.9097 " fill="none" id="NMEA_Eth_Mux-NMEA_0183" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[993848724ee1e0bda2efd2c10d093eb0]
+link NMEA_Mux to AP--><path codeLine="248" d="M1597.5,981.3472 C1597.5,1033.8847 1597.5,1119.2347 1597.5,1159.7597 " fill="none" id="NMEA_Mux-AP" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[4c412d33c9dd3373fedf634d2cfe895b]
+link Esp32 to Lora--><path codeLine="250" d="M339.0625,969.9972 C336.3125,1011.5097 331.575,1083.0722 328.375,1131.5722 " fill="none" id="Esp32-Lora" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[3a78a92175d5b8f917843889fc4ac663]
+link Esp32 to Winches--><path codeLine="251" d="M321.8375,970.4097 C308.7875,991.6847 290.5125,1019.2472 271.25,1041.2472 C242.6875,1073.8597 206.8125,1106.1722 176.275,1131.6347 " fill="none" id="Esp32-Winches" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[090045518a7210d3fe050bd4b1b61143]
+link Cloud_Internet to Dish_Router--><path codeLine="253" d="M1449.65,116.2847 C1467.0125,140.7847 1487.3625,169.5097 1502.725,191.1847 " fill="none" id="Cloud_Internet-Dish_Router" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[0417bd4aebf7681efb342db5775863ca]
+link Cloud_Internet to Router--><path codeLine="254" d="M1491.9875,97.2722 C1535.95,118.3722 1589.0375,149.8597 1625,191.2472 C1673.575,247.1472 1698.6875,332.9972 1709.0625,377.4097 " fill="none" id="Cloud_Internet-Router" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[6d4697dd1a4fa0e14865453f969898e5]
+link Cloud_Internet to Iridium--><path codeLine="255" d="M1335.3,103.6472 C1272.1,134.2847 1185.375,176.3222 1132.7125,201.8472 " fill="none" id="Cloud_Internet-Iridium" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[f7b1ed679f3dcc8891234d56821c2a8b]
+link Cloud_Internet to Remote_Desktop--><path codeLine="256" d="M1377.85,116.2847 C1357.525,144.9597 1333.1125,179.4097 1317.4,201.5847 " fill="none" id="Cloud_Internet-Remote_Desktop" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[f7c22a6020875df2ba44dffafefaebb5]
+link Skipper to Touchscreen--><path codeLine="258" d="M689.4875,116.2472 C690.5625,188.7097 692.475,319.6222 693.325,377.4597 " fill="none" id="Skipper-Touchscreen" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[180a6a48d329b5088bf365124668f177]
+link Skipper to Speakers--><path codeLine="259" d="M658.4625,89.6722 C600.7875,135.7972 471.7375,240.4722 368.75,334.9972 C351.6125,350.7347 333.05,369.3472 319.1625,383.6097 " fill="none" id="Skipper-Speakers" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[18622fb937e9a958838b56c5905cf190]
+link Skipper to Mic--><path codeLine="260" d="M658.3,80.2722 C600.5375,108.0597 474.7125,168.5847 405.9375,201.6722 " fill="none" id="Skipper-Mic" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[b5f99795dccb66293530d697261f575d]
+link Skipper to Cameras--><path codeLine="261" d="M658.7375,111.5597 C621.2625,168.9472 556.725,267.7472 512.8,334.9847 " fill="none" id="Skipper-Cameras" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[4d7243369b38bcf5d3d8f8df86a5cab3]
+link Skipper to Iridium--><path codeLine="262" d="M718.95,77.6847 C785.2625,104.1722 944.4625,167.7472 1029.8625,201.8472 " fill="none" id="Skipper-Iridium" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[c0261e63bc2c3c7d09c0762b33b29a4a]
+link Skipper to SSB--><path codeLine="263" d="M658.6,74.6097 C575.325,99.4347 340.6375,169.3972 223.9125,204.1972 " fill="none" id="Skipper-SSB" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[7055ac5873383501a6665c2abfcc17ee]
+link Skipper to SmartPhone--><path codeLine="264" d="M718.8125,101.6472 C741.2625,128.5347 771.7125,165.0097 793.5625,191.1972 " fill="none" id="Skipper-SmartPhone" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[9e619f9f7e27f8b7daf8036513ac83ac]
+link Skipper to Keyboard_Mouse--><path codeLine="265" d="M718.775,77.7222 C763.7375,96.8972 849.6,137.6347 908.75,191.2472 C968.7625,245.6472 1018.6875,327.5972 1043.7875,372.9972 " fill="none" id="Skipper-Keyboard_Mouse" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[791020c57217bb146034c35bb978d496]
+link Skipper to Remote_Desktop--><path codeLine="266" d="M718.9125,73.3722 C795.2875,93.0097 1002.45,146.3222 1175,191.2472 C1188.05,194.6472 1201.85,198.2472 1215.35,201.7847 " fill="none" id="Skipper-Remote_Desktop" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[855184756f55900ba2a38e06ad588cff]
+@startuml
+
+actor Skipper [
+ Skipper
+]
+
+node RPI #palegreen [
+ <b>Rpi4, BBN OS
+ - - - -
+ Local WiFi
+ CanBus Interface
+ Sound Card
+ SSD
+]
+
+rectangle GPS [
+ GPS USB
+]
+
+rectangle IMU [
+ IMU
+ - - - -
+ compass, gyro, accel
+]
+
+rectangle NMEA_2000 [
+ <b>NMEA2000 Bus
+ - - - -
+ engine sensors,
+ fishfinder, sonar,
+ etc
+]
+
+node NMEA_Mux [
+ NMEA Multiplexer
+ - - - -
+ bidirectional Seatalk1
+]
+
+node NMEA_Eth_Mux [
+ NMEA Ethernet Multiplexer
+]
+
+rectangle NMEA_0183 [
+ <b>NMEA 0183 Devices
+ - - - -
+ AIS transducer/receiver
+ GPS, VHF, compass
+ Wind, Depth, Speed
+]
+
+rectangle AP [
+ Autopilot
+]
+
+node Eth_Hub [
+ Ethernet Hub
+]
+
+node USB_Hub [
+ USB Hub
+]
+
+node Router [
+ LTE/WiFi Router
+]
+
+rectangle Dish_Router [
+ StarLink Router,
+ Dish
+]
+
+node Radar [
+ Radar
+]
+
+node Touchscreen [
+ <b>HDMI Touchscreen
+]
+
+rectangle Speakers [
+ Speakers
+]
+
+rectangle Mic [
+ Microphone
+]
+
+rectangle Cameras [
+ Cameras
+ - - - -
+ WebCam, Mast,
+ Night (FLIR),
+ low light vision,
+ IP, docking, etc
+]
+
+node SDR [
+ SDR Radio
+]
+
+node SSB [
+ SSB Radio
+]
+
+cloud WiFi_Local [
+ Local WiFi
+]
+
+rectangle Iridium [
+ Iridium Phone
+]
+
+rectangle Other_Sensors [
+ Other_Sensors
+ - - - -
+ IoT, 1w, i2c, etc
+ batteries monitoring
+ chargers (wind, solar, diesel gen)
+ fluid levels
+ env temp/pressure/humid
+ dangerous gases sensors
+ lightning strike sensors
+]
+
+rectangle Remote_Desktop [
+ Remote Desktop (VNC)
+]
+
+node AC [
+ A/C
+ Heater
+]
+
+node Pumps [
+ Pumps
+ - - - -
+ Bilge
+ Fresh Water
+ Black Water
+]
+
+node Fridge [
+ Fridge
+ Watermaker
+ Live well
+]
+
+rectangle Lights_Fans [
+ Lights: (Nav, Anchor,
+ Running, Mast, Cabin,
+ Underwater, Search, etc)
+ Fans
+ Bilge/Engine Blower
+]
+
+rectangle Keyboard_Mouse [
+ Keyboard
+ Mouse
+]
+
+rectangle Weather [
+ NavTex
+ WeatherFax
+ Barograph
+]
+
+rectangle SiriusXM [
+ SiriusXM Marine
+]
+
+rectangle SmartPhone [
+ SmartPhones
+ Tablets
+]
+
+database NAS [
+ NAS
+ - - - -
+ Audio/Video Lib
+ Charts, Backups, Tracks,
+ Docs, Logs,
+ Crew Docs, Float Plans,
+ Inventory, Provisioning,
+ Time Series Data, etc
+]
+
+node Winches [
+ Anchor Windlass
+ Power Winches
+ Bow Thruster
+]
+
+cloud Cloud_Internet [
+ <b>Internet
+ Cloud Storage
+ Cloud Services
+]
+
+cloud Lora [
+ LoraWAN
+ Asset Tracking
+ Dinghy Locator
+]
+
+rectangle Esp32 [
+ m5stack,
+ arduino
+]
+
+RPI -l- IMU
+RPI - - NMEA_2000
+RPI - - NMEA_Mux
+RPI -u- Eth_Hub
+RPI - - USB_Hub
+RPI -u- Touchscreen
+RPI -u- Cameras
+RPI -u-> Speakers
+RPI -u- Mic
+RPI -u- SSB
+RPI -u- Iridium
+RPI - - Other_Sensors
+RPI -d- Esp32
+RPI -u- WiFi_Local
+RPI -u- Keyboard_Mouse
+
+SmartPhone - - WiFi_Local
+
+SiriusXM - - NMEA_2000
+NMEA_2000 - - NMEA_2000
+
+Eth_Hub -r- Router
+Eth_Hub - - Radar
+Eth_Hub - - NAS
+Eth_Hub - - NMEA_Eth_Mux
+Eth_Hub -u- Dish_Router
+
+USB_Hub - - SDR
+USB_Hub - - Weather
+USB_Hub -r- GPS
+
+Other_Sensors -r- AC
+Other_Sensors - - Fridge
+Other_Sensors - - Lights_Fans
+Other_Sensors - - Pumps
+
+NMEA_Mux -l- NMEA_0183
+NMEA_Eth_Mux - - NMEA_0183
+NMEA_Mux - - AP
+
+Esp32 - - Lora
+Esp32 - - Winches
+
+Cloud_Internet - - Dish_Router
+Cloud_Internet - - Router
+Cloud_Internet - - Iridium
+Cloud_Internet - - Remote_Desktop
+
+Skipper - - Touchscreen
+Skipper - - Speakers
+Skipper - - Mic
+Skipper - - Cameras
+Skipper - - Iridium
+Skipper - - SSB
+Skipper - - SmartPhone
+Skipper - - Keyboard_Mouse
+Skipper - - Remote_Desktop
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 05:25:05 EST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
