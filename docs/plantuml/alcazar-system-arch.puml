@@ -84,11 +84,14 @@ node GPS_Ant #palegreen [
 
 node Eth_Hub #peachpuff [
  Ethernet Hub
+ ----
+ Voltage: (12v?)
  Model: (?)
 ]
 
 node USB_Hub #peachpuff [
  USB Hub
+ Voltage: (12v?)
  Model: (?)
 ]
 
