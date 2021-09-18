@@ -1,2 +1,2 @@
 # SY-Alcazar
-Planning of the Nav system refit
+Planning of the Nav system refit.
