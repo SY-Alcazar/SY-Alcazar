@@ -308,6 +308,7 @@ node Winches [
 
 cloud Cloud_Internet #peachpuff [
  <b>Internet
+ ----
  Cloud Storage: Rclone supported
  Cloud Services: Marina Booking, Marine Traffic
  Location Reporting: saillogger.com
@@ -321,6 +322,7 @@ cloud Cloud_Internet #peachpuff [
  Charts: MbTiles, NOAA, Navionics
  Email: any
  Software updates: apt, SignalK, OpenCPN, AvNav
+ WebCam: (?)
 ]
 
 cloud Lora [
