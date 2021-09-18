@@ -255,6 +255,10 @@ database NAS [
  Time Series Data, etc
 ]
 
+node Rudder #palegreen [
+ Rudder Drive Motor
+]
+
 node Dash_1 #palegreen [
  Wind Display
  ----
@@ -307,7 +311,7 @@ rectangle Esp32 [
 
 RPI -l- IMU
 RPI -- NMEA_2000
-RPI -- NMEA_Mux
+RPI -d- NMEA_Mux
 RPI -u- Eth_Hub
 RPI -- USB_Hub
 RPI -u- Touchscreen
@@ -322,8 +326,9 @@ RPI -u- WiFi_Local
 RPI -u- Keyboard_Mouse
 
 SmartPhone -- WiFi_Local
-AP_2 -l- WiFi_Local
-AP_2 -- AP
+AP_2 -u- WiFi_Local
+AP -- Rudder
+AP_2 -- Rudder
 
 SiriusXM -- NMEA_2000
 NMEA_2000 -- NMEA_2000
@@ -344,17 +349,17 @@ Other_Sensors -- Appliance
 Other_Sensors -- Lights_Fans
 Other_Sensors -- Pumps
 
-NMEA_Mux -l- NMEA_0183
+NMEA_Mux -r- NMEA_0183
 NMEA_Eth_Mux -- NMEA_0183
 NMEA_Mux -- AP
 NMEA_Mux -- VHF
 NMEA_Mux -- Chartplotter
-NMEA_Mux -r- Dash_1
+NMEA_Mux -l- Dash_1
 NMEA_Mux -u- Dash_2
-NMEA_Mux -r- Dash_3
+NMEA_Mux -l- Dash_3
 NMEA_Mux -u- AIS
 
-Chartplotter -l- GPS_Ant
+Chartplotter -- GPS_Ant
 
 Esp32 -- Lora
 Esp32 -- Winches
