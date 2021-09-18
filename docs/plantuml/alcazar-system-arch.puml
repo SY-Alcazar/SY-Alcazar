@@ -22,16 +22,25 @@ node RPI #peachpuff [
  <b>Rpi4 8Gb, BBN OS
  ----
  Local WiFi (built-in)
+
  CanBus Interface - (no)
+
  Sound Card - (?usb)
+
  SSD - SAMSUNG 870 EVO 500GB
      2.5 Inch SATA III
      Internal SSD (MZ-77E500B/AM)
+
  Case - (DeskPi Pro v2)
+
  SD Card - (Samsung PRO Endurance
      32GB 100MB/s (U1) MicroSDXC
      Memory Card with Adapter
      (MB-MJ32GA/AM))
+
+ 12V-24V -> 5V Voltage Converter
+     Tobsun EA75-5V
+     15A 75W
 ]
 
 rectangle GPS #peachpuff [
