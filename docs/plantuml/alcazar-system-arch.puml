@@ -11,11 +11,12 @@ node Panel #peachpuff [
  Fuses
  USB Data Ports
  HDMI Ports
- Audio Ports
+ Audio Ports (In/Out)
  SIM Card Port: [[https://www.data-alliance.net/cable-gland-for-fiber-usb-sim-terminal-block-waterproof-ip67-feed-thru/ Buy Here]]
  SD Card Port (?)
  Status Lights
  Volt/Amm Meters
+ 12v Socket
 ]
 
 node RPI #peachpuff [
@@ -333,6 +334,12 @@ node Winches_etc [
  Bow Thruster
 ]
 
+node Splitter #peachpuff [
+ Antenna Splitter
+ VHF/AIS
+ Model: ?
+]
+
 cloud Cloud_Internet #peachpuff [
  <b>Internet
  ----
@@ -389,6 +396,9 @@ node Engines #palegreen [
  Stiletto Sonic Saildrives MK1
 ]
 
+node Antenna_VHF #palegreen [
+  VHF Antenna
+]
 
 node Solar_Pan #palegreen [
   Solar Panels
@@ -485,5 +495,9 @@ Charger_Solar -- Batteries
 Wind_Gen -- Batteries
 Engines -- Batteries
 
+VHF -- Splitter
+AIS -- Splitter
+
+Splitter -- Antenna_VHF
 
 @enduml
