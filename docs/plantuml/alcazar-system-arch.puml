@@ -194,6 +194,12 @@ node Appliance [
  Live well
 ]
 
+node AIS #peachpuff [
+ AIS Transducer
+ ----
+ Model: (?)
+]
+
 rectangle Lights_Fans #palegreen [
  Lights: (Nav, Anchor,
  Running, Mast, Cabin,
@@ -257,7 +263,7 @@ node Dash_3 #palegreen [
  Depth Display
  ----
  Raymarine
- st60 a22002-P
+ st60 a22002-P (?)
 ]
 
 node Fridge #palegreen [
@@ -334,6 +340,7 @@ NMEA_Mux -- Chartplotter
 NMEA_Mux -r- Dash_1
 NMEA_Mux -u- Dash_2
 NMEA_Mux -r- Dash_3
+NMEA_Mux -u- AIS
 
 Chartplotter -l- GPS_Ant
 
