@@ -348,6 +348,7 @@ cloud Cloud_Internet #peachpuff [
     Lightnings Map
  Charts: MbTiles, NOAA, Navionics, etc
  Email: any
+ Remote Desktop Access: Cloud VNC
  Software updates: apt, SignalK, OpenCPN, AvNav, etc
  WebCam
 ]
