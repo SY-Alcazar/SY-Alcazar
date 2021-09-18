@@ -133,6 +133,8 @@ node Router #peachpuff [
  Spitz (GL-X750)
  Modem: (?)
  GPS: (built-in into Modem)
+ LET Provider:
+    Digicel while in Carib
 ]
 
 rectangle Dish_Router [
@@ -285,7 +287,11 @@ database NAS [
 ]
 
 node Rudder #palegreen [
- <b>Rudder Drive Motor
+ <b>Rudder
+ ----
+ Rudder Drive Motor
+
+ Hydraulic Steering
 ]
 
 node Dash_1 #palegreen [
@@ -354,6 +360,45 @@ rectangle Esp32 [
  arduino
 ]
 
+node Batteries #palegreen [
+ <b>Batteries
+ ----
+ 660 ah
+ Flooded Lead Acid
+]
+
+node Charger_Solar #palegreen [
+ Solar Charger
+ ----
+ ProStar-20, Morningstar Corp
+ Flooded Lead Acid
+]
+
+node Engines #palegreen [
+ <b>Engines (2)
+ ----
+ Lancing Ford Endura xld-18
+ 55 hp, 4 cylinder
+ Diesel
+
+ Transmission:
+ Stiletto Sonic Saildrives MK1
+]
+
+
+node Solar_Pan #palegreen [
+  Solar Panels
+  ----
+  340 Watts
+]
+
+node Wind_Gen #palegreen [
+  Wind Generator
+  ----
+  Model: ?
+  ? Watts
+]
+
 RPI -l- IMU
 RPI -- NMEA_2000
 RPI -d- NMEA_Mux
@@ -373,6 +418,7 @@ RPI -l- Panel
 
 Panel -- Touchscreen
 Panel -- USB_Hub
+Panel -- Batteries
 
 SmartPhone -- WiFi_Local
 AP_2 -u- WiFi_Local
@@ -429,5 +475,11 @@ Skipper -- SmartPhone
 Skipper -- Keyboard_Mouse
 Skipper -- Remote_Desktop
 Skipper -- Panel
+
+Charger_Solar -- Solar_Pan
+Charger_Solar -- Batteries
+Wind_Gen -- Batteries
+Engines -- Batteries
+
 
 @enduml
