@@ -4,6 +4,7 @@ actor Skipper [
  Skipper
 ]
 
+
 node Panel #peachpuff [
  <b>Nav Station Panel
  ----
@@ -455,6 +456,15 @@ node Wind_Gen #palegreen [
   Model: ?
   ? Watts
 ]
+
+note bottom of VHF
+  Time to upgrade
+end note
+
+note top of Chartplotter
+  Time to upgrade
+end note
+
 
 RPI -l- Env_Sens
 RPI -l- NMEA_2000
