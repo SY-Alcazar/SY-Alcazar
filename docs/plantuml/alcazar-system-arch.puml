@@ -63,7 +63,13 @@ cloud NMEA_2000 [
  etc
 ]
 
-node Junction_ST1 #peachpuff [
+node Junction_ST1_1 #peachpuff [
+ Seatalk1 Junction Block
+ ----
+ Model: (?)
+]
+
+node Junction_ST1_2 #peachpuff [
  Seatalk1 Junction Block
  ----
  Model: (?)
@@ -385,9 +391,13 @@ node Batteries #palegreen [
 ]
 
 node Charger_Solar #palegreen [
- Solar Charger
+ Solar Chargers (2)
  ----
  ProStar-20,
+ Morningstar Corp
+
+ SunSaver-20L,
+ SS-20L-12V
  Morningstar Corp
 ]
 
@@ -420,13 +430,13 @@ node Wind_Gen #palegreen [
 ]
 
 RPI -l- Env_Sens
-RPI -- NMEA_2000
-RPI -d- NMEA_Mux
+RPI -l- NMEA_2000
+RPI -r- NMEA_Mux
 RPI -u- Eth_Hub
 RPI -- USB_Hub
 RPI -u- Touchscreen
 RPI -u- Cameras
-RPI -u-> Speakers
+RPI -u- Speakers
 RPI -u- Mic
 RPI -u- SSB
 RPI -u- Iridium
@@ -446,10 +456,9 @@ AP -- Rudder
 AP_2 -- Rudder
 
 SiriusXM -- NMEA_2000
-NMEA_2000 -- NMEA_2000
 
 Eth_Hub -r- Router
-Eth_Hub -[dashed]- Radar
+Eth_Hub -[dashed]l- Radar
 Eth_Hub -- NAS
 Eth_Hub -- NMEA_Eth_Mux
 Eth_Hub -u- Dish_Router
@@ -458,23 +467,25 @@ USB_Hub -- SDR
 USB_Hub -- Weather
 USB_Hub -r- GPS
 
-Other_Sensors -r- AC
+Other_Sensors -- AC
 Other_Sensors -- Fridge
 Other_Sensors -- Appliance
 Other_Sensors -- Lights_Fans
 Other_Sensors -- Pumps
 
-NMEA_Mux -r- NMEA_0183
+NMEA_Mux -- NMEA_0183
 NMEA_Eth_Mux -- NMEA_0183
-NMEA_Mux -- AP
+NMEA_Mux -- Junction_ST1_2
 NMEA_Mux -- VHF
 NMEA_Mux -- Chartplotter
-NMEA_Mux --- Junction_ST1
-NMEA_Mux -u- AIS
+NMEA_Mux -- AIS
 
-Junction_ST1 -d- Dash_1
-Junction_ST1 -d- Dash_2
-Junction_ST1 -d- Dash_3
+Junction_ST1_1 -- Dash_1
+Junction_ST1_1 -- Dash_2
+Junction_ST1_1 -- Dash_3
+
+Junction_ST1_2 -- AP
+Junction_ST1_2 -- Junction_ST1_1
 
 Chartplotter -- GPS_Ant
 
@@ -500,7 +511,7 @@ Skipper -- Panel
 
 Charger_Solar -- Solar_Pan
 Charger_Solar -- Batteries
-Wind_Gen -- Batteries
+Wind_Gen -u- Batteries
 Engines -- Batteries
 
 VHF -- Splitter
