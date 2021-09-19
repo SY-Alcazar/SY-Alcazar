@@ -262,9 +262,13 @@ node Appliance [
 ]
 
 node AIS #peachpuff [
- <b>AIS Transducer
+ <b>AIS Transponder
  ----
- Model: (?)
+ <proposed>
+ Model: AMEC CAMINO-108 Class B
+    AIS Transponder
+
+ <or find cheaper on ebay>
 ]
 
 rectangle Lights_Fans #palegreen [
@@ -359,12 +363,6 @@ node Winches_etc [
  Bow Thruster
 ]
 
-node Splitter #peachpuff [
- Antenna Splitter
- VHF/AIS
- Model: ?
-]
-
 cloud Cloud_Internet #peachpuff [
  <b>Internet
  ----
@@ -427,6 +425,12 @@ node Engines #palegreen [
 
 node Antenna_VHF #palegreen [
   VHF Antenna
+]
+
+node Antenna_AIS #peachpuff [
+  AIS Antenna
+  ----
+  Tram VHF Marine Antenna
 ]
 
 node Solar_Pan #palegreen [
@@ -527,9 +531,7 @@ Charger_Solar -- Batteries
 Wind_Gen -u- Batteries
 Engines -- Batteries
 
-VHF -- Splitter
-AIS -- Splitter
-
-Splitter -- Antenna_VHF
+VHF -- Antenna_VHF
+AIS -- Antenna_AIS
 
 @enduml
