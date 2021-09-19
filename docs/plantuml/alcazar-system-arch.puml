@@ -139,10 +139,15 @@ node GPS_Ant #palegreen [
 ]
 
 node Eth_Hub #peachpuff [
- Ethernet Hub
+ Ethernet Switch
  ----
  Voltage: (12v?)
  Model: (?)
+
+ <recommended>
+ Any 5-port Gigabit Ethernet Switch
+    should be fine to use.
+    (Might need 12v -> 5v power conv)
 ]
 
 node USB_Hub #peachpuff [
@@ -183,6 +188,10 @@ node Touchscreen  #peachpuff [
  Nav Station
  Size: ?
  Mount: ?
+
+ <recommended>
+ HDMI Touchscreens from https://www.waveshare.com/
+ pick your size. I'd say ~12"
 ]
 
 rectangle Speakers #peachpuff [
