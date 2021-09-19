@@ -48,6 +48,7 @@ rectangle GPS #peachpuff [
  GPS USB
  ----
  <proposed>
+ <optional with AIS transponder>
  GlobalSat BU-353-S4 USB
 ]
 
