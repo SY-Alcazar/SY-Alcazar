@@ -146,13 +146,13 @@ node Eth_Hub #peachpuff [
 ]
 
 node USB_Hub #peachpuff [
- USB Hub
+ USB Data Hub
  ----
- Non-backfeeding power
+ Non-backpowering
  Powered
  Voltage: (12v)
- Model: (?)
- Ports: 7 (USB 2.0?)
+
+ Google search "7-port industrial USB HUB"
 ]
 
 node Router #peachpuff [
