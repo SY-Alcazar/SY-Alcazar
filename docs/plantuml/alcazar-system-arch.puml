@@ -46,7 +46,9 @@ node RPI #peachpuff [
 
 rectangle GPS #peachpuff [
  GPS USB
- Model: (?)
+ ----
+ <proposed>
+ GlobalSat BU-353-S4 USB
 ]
 
 rectangle Env_Sens #peachpuff [
@@ -66,20 +68,31 @@ cloud NMEA_2000 [
 node Junction_ST1_1 #peachpuff [
  Seatalk1 Junction Block
  ----
- Model: (?)
+ <Is it needed here?>
+ Model: 3-way
 ]
 
 node Junction_ST1_2 #peachpuff [
  Seatalk1 Junction Block
  ----
- Model: (?)
+ <or just DIY>
+ Model: ?
 ]
 
 node NMEA_Mux #peachpuff [
  <b>NMEA Multiplexer
  ----
  bidirectional Seatalk1
- Model: (?)
+
+ <proposed>
+ Shipmodul Miniplex-3USB
+
+ or
+ <proposed>
+ Model: QK-A033 Bi-directional NMEA 0183
+    Multiplexer with SeaTalk Converter
+ Vendor: Quark-elec
+ [[https://www.quark-elec.com/product/qk-a033-wifi-usb-nmea-0183-multiplexer-with-seatalk-converter/ See]]
 ]
 
 node NMEA_Eth_Mux [
@@ -475,17 +488,17 @@ Other_Sensors -- Pumps
 
 NMEA_Mux -- NMEA_0183
 NMEA_Eth_Mux -- NMEA_0183
-NMEA_Mux -- Junction_ST1_2
-NMEA_Mux -- VHF
-NMEA_Mux -- Chartplotter
-NMEA_Mux -- AIS
+NMEA_Mux -- Junction_ST1_2 : Seatalk1
+NMEA_Mux -- VHF : NMEA 0183
+NMEA_Mux -- Chartplotter : NMEA 0183
+NMEA_Mux -- AIS : NMEA 0183
 
-Junction_ST1_1 -- Dash_1
-Junction_ST1_1 -- Dash_2
-Junction_ST1_1 -- Dash_3
+Junction_ST1_1 -- Dash_1 : Seatalk1
+Junction_ST1_1 -- Dash_2 : Seatalk1
+Junction_ST1_1 -- Dash_3 : Seatalk1
 
-Junction_ST1_2 -- AP
-Junction_ST1_2 -- Junction_ST1_1
+Junction_ST1_2 -- AP : Seatalk1
+Junction_ST1_2 -- Junction_ST1_1 : Seatalk1
 
 Chartplotter -- GPS_Ant
 
