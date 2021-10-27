@@ -92,6 +92,6 @@ Legend for flags:
 
 Capabilities of the system described here: 
 
-Open Source BBN Marine Linux for Raspberry Pi by Bareboat Necessities
+Open Source BBN Marine Linux for Raspberry Pi by Bareboat Necessities:
 https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html
 
