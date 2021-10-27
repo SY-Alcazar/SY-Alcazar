@@ -57,6 +57,7 @@
 |      | GPIO breakout      |         15.00 | https://czh-labs.com                                   | Ultra-small RPi GPIO Terminal Block Breakout Board Module, for Raspberry Pi OONO D-1352                                         
 |      | GPIO sleeve        |               |                                                        | GPIO sleeve                                           
 |      | Wires for i2c      |               |                                                        |                                          
+|      | Lightning Detector |         26.50 | https://www.sparkfun.com                               | SparkFun Lightning Detector - AS3935                                          
 | ==== | **Tools**          |               |                                                        |                                             
 |      | Ethernet toolkit   |               |                                                        |                                             
 |      | Butt connectors    |               |                                                        |                                             
