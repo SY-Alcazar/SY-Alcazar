@@ -56,6 +56,7 @@
 |      | IMU                |         20.00 | https://www.adafruit.com                               | mpu9255 9dof                                           
 |      | GPIO breakout      |         15.00 | https://czh-labs.com                                   | Ultra-small RPi GPIO Terminal Block Breakout Board Module, for Raspberry Pi OONO D-1352                                         
 |      | GPIO sleeve        |               |                                                        | GPIO sleeve                                           
+|      | Wires for i2c      |               |                                                        |                                          
 | ==== | **Tools**          |               |                                                        |                                             
 |      | Ethernet toolkit   |               |                                                        |                                             
 |      | Butt connectors    |               |                                                        |                                             
