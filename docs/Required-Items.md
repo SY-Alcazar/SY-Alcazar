@@ -51,9 +51,10 @@
 |      | Ethernet toolkit   |               |                                                        |                                             
 |      | Butt connectors    |               |                                                        |                                             
 |      | Cable glands       |               |                                                        |                                             
-|      | Heatshrink tubes   |               |                                                        |                                             
+|      | Heat shrink tubes  |               |                                                        |                                             
 |      | Electronics Tools  |               |                                                        | Smaller screwdrivers, etc                                           
 |      | Heat gun           |               |                                                        |                                           
 |      | Cable ties         |               |                                                        |                                          
 |      | Crimping tool      |               |                                                        |                                          
 |      | Rotary toolkit     |               |                                                        |                                          
+|      | Marine DC Wires    |               |                                                        |                                          
