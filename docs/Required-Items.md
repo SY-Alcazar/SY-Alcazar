@@ -22,6 +22,7 @@
 |      | Charts             |               | https://www.o-charts.org                               |  OpenCPN Compatible                                           
 |      | Keyboard           |               |                                                        |  Waterproof, backlid, USB wired, with pointing device                                           
 |      | Mouse              |               |                                                        |  USB wired optical with wheel button                                          
+|      | Mouse Gel Pad      |               |                                                        |  USB wired optical with wheel button                                          
 | ==== | **Computer**       |               |                                                        |                                             
 |      | Case               |         60.00 | https://deskpi.com                                     |  DeskPi Pro V2                                          
 |      | Pi                 |         75.00 |                                                        |  Rpi4 8Gb                                          
