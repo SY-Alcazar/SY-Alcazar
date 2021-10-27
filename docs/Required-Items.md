@@ -50,6 +50,7 @@
 |      | Ferrite Ring       |               |                                                        | Ferrite Ring Core cable clips                                            
 | ==== | **Sensors**        |               |                                                        |                                             
 |      | RTC                |               |                                                        | RTC clock (DS3231 or DS1307)                                           
+|      | Battery for RTC    |               |                                                        | Battery for RTC                                           
 |      | Env i2c sensors    |         19.00 | https://www.adafruit.com                               | Bosch BME680 (pressure/temp/humid/gas)                                          
 |      | IMU                |         20.00 | https://www.adafruit.com                               | mpu9255 9dof                                           
 | ==== | **Tools**          |               |                                                        |                                             
