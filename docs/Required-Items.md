@@ -41,23 +41,23 @@
 |      | Switches           |               |                                                        |                                            
 |      | Fuses              |               |                                                        |                                            
 |      | Status Lights      |               |                                                        |                                            
-|      | SD card slot?      |               |                                                        |                                            
+|  ?   | SD card slot       |               |                                                        |                                            
 |      | Panel Materials    |               |                                                        |                                            
 | ==== | **Audio**          |               |                                                        |                                             
-|      | Speakers           |               |                                                        | Motorcycle / Boat Speakers 12v >100w with Bluetooth? and amp built in, rail mountable                                          
-|      | Sound Card         |               |                                                        | USB for Rpi with audio in/out                                          
-|      | Noise Isolator     |               |                                                        | BESIGN Ground Loop Noise Isolator for Car Audio/Home Stereo System with 3.5mm Audio Cable                                            
-|      | Ferrite Ring       |               |                                                        | Ferrite Ring Core cable clips                                            
-|      | Speaker Cables     |               |                                                        |                                             
+|  ?   | Speakers           |               |                                                        | Motorcycle / Boat Speakers 12v >100w with Bluetooth? and amp built in, rail mountable                                          
+|  ?   | Sound Card         |               |                                                        | USB for Rpi with audio in/out                                          
+|  ?   | Noise Isolator     |               |                                                        | BESIGN Ground Loop Noise Isolator for Car Audio/Home Stereo System with 3.5mm Audio Cable                                            
+|  ?   | Ferrite Ring       |               |                                                        | Ferrite Ring Core cable clips                                            
+|  ?   | Speaker Cables     |               |                                                        |                                             
 | ==== | **Sensors**        |               |                                                        |                                             
-|      | RTC                |               |                                                        | RTC clock (DS3231 or DS1307)                                           
-|      | Battery for RTC    |               |                                                        | Battery for RTC                                           
-|      | Env i2c sensors    |         19.00 | https://www.adafruit.com                               | Bosch BME680 (pressure/temp/humid/gas)                                          
-|      | IMU                |         20.00 | https://www.adafruit.com                               | mpu9255 9dof                                           
-|      | GPIO breakout      |         15.00 | https://czh-labs.com                                   | Ultra-small RPi GPIO Terminal Block Breakout Board Module, for Raspberry Pi OONO D-1352                                         
-|      | GPIO sleeve        |               |                                                        | GPIO sleeve                                           
-|      | Wires for i2c      |               |                                                        |                                          
-|      | Lightning Detector |         26.50 | https://www.sparkfun.com                               | SparkFun Lightning Detector - AS3935                                          
+|  ?   | RTC                |               |                                                        | RTC clock (DS3231 or DS1307)                                           
+|  ?   | Battery for RTC    |               |                                                        | Battery for RTC                                           
+|  ?   | Env i2c sensors    |         19.00 | https://www.adafruit.com                               | Bosch BME680 (pressure/temp/humid/gas)                                          
+|  ?   | IMU                |         20.00 | https://www.adafruit.com                               | mpu9255 9dof                                           
+|  ?   | GPIO breakout      |         15.00 | https://czh-labs.com                                   | Ultra-small RPi GPIO Terminal Block Breakout Board Module, for Raspberry Pi OONO D-1352                                         
+|  ?   | GPIO sleeve        |               |                                                        | GPIO sleeve                                           
+|  ?   | Wires for i2c      |               |                                                        |                                          
+|  ?   | Lightning Detector |         26.50 | https://www.sparkfun.com                               | SparkFun Lightning Detector - AS3935                                          
 | ==== | **Tools**          |               |                                                        |                                             
 |      | Ethernet toolkit   |               |                                                        |                                             
 |      | Butt connectors    |               |                                                        |                                             
@@ -70,13 +70,13 @@
 |      | Rotary toolkit     |               |                                                        |                                          
 |      | Marine DC Wires    |               |                                                        |                                          
 | ==== | **Controllers**    |               |                                                        |                                             
-|      | M5Stack tough      |         50.00 | https://shop.m5stack.com                               | M5Stack Tough ESP32 IoT Development Board Kit                                         
-|      | Wio-Terminal       |         37.00 | https://www.seeedstudio.com                            | Wio Terminal: ATSAMD51 Core with Realtek RTL8720DN BLE 5.0 & Wi-Fi 2.4G/5G Dev Board                                         
-|      | Seeeduino          |          6.50 | https://www.seeedstudio.com                            | Seeeduino XIAO (Pre-Soldered)                                         
-|      | LoRa Grove         |         17.00 | https://www.seeedstudio.com                            | Grove - LoRa-E5 (STM32WLE5JC), EU868/US915, LoRaWAN supported                                  
-|      | LoRa Wio           |         33.00 | https://www.seeedstudio.com                            | Wio Terminal LoRaWan Chassis with Antenna- built-in LoRa-E5 and GNSS, EU868/US915                                  
-|      | Grove Seeduino     |          5.40 | https://www.seeedstudio.com                            | Grove Shield for Seeeduino XIAO - with embedded battery management chip                                  
-|      | Waterproof Box     |               |                                                        | Waterproof box for a dinghy GPS LoRa transmitter
+|  ?   | M5Stack tough      |         50.00 | https://shop.m5stack.com                               | M5Stack Tough ESP32 IoT Development Board Kit                                         
+|  ?   | Wio-Terminal       |         37.00 | https://www.seeedstudio.com                            | Wio Terminal: ATSAMD51 Core with Realtek RTL8720DN BLE 5.0 & Wi-Fi 2.4G/5G Dev Board                                         
+|  ?   | Seeeduino          |          6.50 | https://www.seeedstudio.com                            | Seeeduino XIAO (Pre-Soldered)                                         
+|  ?   | LoRa Grove         |         17.00 | https://www.seeedstudio.com                            | Grove - LoRa-E5 (STM32WLE5JC), EU868/US915, LoRaWAN supported                                  
+|  ?   | LoRa Wio           |         33.00 | https://www.seeedstudio.com                            | Wio Terminal LoRaWan Chassis with Antenna- built-in LoRa-E5 and GNSS, EU868/US915                                  
+|  ?   | Grove Seeduino     |          5.40 | https://www.seeedstudio.com                            | Grove Shield for Seeeduino XIAO - with embedded battery management chip                                  
+|  ?   | Waterproof Box     |               |                                                        | Waterproof box for a dinghy GPS LoRa transmitter
 | ==== | **SDR/HAM/SSB**    |               |                                                        |  - not going to be implemented at this time                                           
 
 
@@ -87,3 +87,4 @@ Legend for flags:
 - N - not needed
 - H - already have (no need to pay)
 - D - delivered (and paid)
+- ? - needs to be discussed
