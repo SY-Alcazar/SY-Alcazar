@@ -27,6 +27,13 @@
 |      | Pi                 |         75.00 |                                                        |  Rpi4 8Gb                                          
 |      | SD card            |     3 * 10.00 | https://www.amazon.com B07B98GXQT                      |  Samsung PRO Endurance 32GB 100MB/s (U1) MicroSDXC Memory Card with Adapter (MB-MJ32GA/AM)                                       
 |      | SSD                |         80.00 | https://www.amazon.com B08QBMD6P4                      |  Samsung 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)                                           
+| ==== | **Panel**          |               |                                                        |                                             
+|      | USB Ports          |               |                                                        |                                            
+|      | Audio Ports        |               |                                                        |                                            
+|      | HDMI Ports         |               |                                                        |                                            
+|      | Sim Card Slot      |               |                                                        |                                            
+|      | Volt/Amp Meter     |               |                                                        |                                            
+|      | 12v Power Port     |               |                                                        |                                            
 | ==== | **Audio**          |               |                                                        |                                             
 |      | Speakers           |               |                                                        |  Motorcycle / Boat Speakers 12v >100w with Bluetooth? and amp built in, rail mountable                                          
 |      | Sound Card         |               |                                                        |  USB for Rpi with audio in/out                                          
