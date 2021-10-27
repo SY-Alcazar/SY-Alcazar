@@ -48,6 +48,7 @@
 |      | Sound Card         |               |                                                        | USB for Rpi with audio in/out                                          
 |      | Noise Isolator     |               |                                                        | BESIGN Ground Loop Noise Isolator for Car Audio/Home Stereo System with 3.5mm Audio Cable                                            
 |      | Ferrite Ring       |               |                                                        | Ferrite Ring Core cable clips                                            
+|      | Speaker Cables     |               |                                                        |                                             
 | ==== | **Sensors**        |               |                                                        |                                             
 |      | RTC                |               |                                                        | RTC clock (DS3231 or DS1307)                                           
 |      | Battery for RTC    |               |                                                        | Battery for RTC                                           
