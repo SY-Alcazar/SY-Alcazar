@@ -75,6 +75,7 @@
 |      | LoRa Grove         |         17.00 | https://www.seeedstudio.com                            | Grove - LoRa-E5 (STM32WLE5JC), EU868/US915, LoRaWAN supported                                  
 |      | LoRa Wio           |         33.00 | https://www.seeedstudio.com                            | Wio Terminal LoRaWan Chassis with Antenna- built-in LoRa-E5 and GNSS, EU868/US915                                  
 |      | Grove Seeduino     |          5.40 | https://www.seeedstudio.com                            | Grove Shield for Seeeduino XIAO - with embedded battery management chip                                  
+|      | Waterproof Box     |               |                                                        | Waterproof box for a dinghy GPS LoRa transmitter
 
 
 Legend for flags:
