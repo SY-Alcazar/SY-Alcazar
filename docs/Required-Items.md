@@ -42,11 +42,16 @@
 |      | Fuses              |               |                                                        |                                            
 |      | Status Lights      |               |                                                        |                                            
 |      | SD card slot?      |               |                                                        |                                            
+|      | Panel Materials    |               |                                                        |                                            
 | ==== | **Audio**          |               |                                                        |                                             
 |      | Speakers           |               |                                                        | Motorcycle / Boat Speakers 12v >100w with Bluetooth? and amp built in, rail mountable                                          
 |      | Sound Card         |               |                                                        | USB for Rpi with audio in/out                                          
 |      | Noise Isolator     |               |                                                        | BESIGN Ground Loop Noise Isolator for Car Audio/Home Stereo System with 3.5mm Audio Cable                                            
 |      | Ferrite Ring       |               |                                                        | Ferrite Ring Core cable clips                                            
+| ==== | **Sensors**        |               |                                                        |                                             
+|      | RTC                |               |                                                        | RTC clock (DS3231 or DS1307)                                           
+|      | Env i2c sensors    |         19.00 | https://www.adafruit.com                               | Bosch BME680 (pressure/temp/humid/gas)                                          
+|      | IMU                |         20.00 | https://www.adafruit.com                               | mpu9255 9dof                                           
 | ==== | **Tools**          |               |                                                        |                                             
 |      | Ethernet toolkit   |               |                                                        |                                             
 |      | Butt connectors    |               |                                                        |                                             
