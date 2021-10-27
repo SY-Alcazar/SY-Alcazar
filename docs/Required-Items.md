@@ -53,7 +53,7 @@
 |      | Battery for RTC    |               |                                                        | Battery for RTC                                           
 |      | Env i2c sensors    |         19.00 | https://www.adafruit.com                               | Bosch BME680 (pressure/temp/humid/gas)                                          
 |      | IMU                |         20.00 | https://www.adafruit.com                               | mpu9255 9dof                                           
-|      | GPIO breakout      |               |                                                        | GPIO breakout board                                          
+|      | GPIO breakout      |         15.00 | https://czh-labs.com                                   | Ultra-small RPi GPIO Terminal Block Breakout Board Module, for Raspberry Pi OONO D-1352                                         
 |      | GPIO sleeve        |               |                                                        | GPIO sleeve                                           
 | ==== | **Tools**          |               |                                                        |                                             
 |      | Ethernet toolkit   |               |                                                        |                                             
