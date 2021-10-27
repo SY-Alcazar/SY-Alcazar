@@ -31,6 +31,7 @@
 |      | USB Ports          |               |                                                        |                                            
 |      | Audio Ports        |               |                                                        |                                            
 |      | HDMI Ports         |               |                                                        |                                            
+|      | Ethernet Ports     |               |                                                        |                                            
 |      | Sim Card Slot      |               |                                                        |                                            
 |      | Volt/Amp Meter     |               |                                                        |                                            
 |      | 12v Power Port     |               |                                                        |                                            
