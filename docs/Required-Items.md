@@ -88,3 +88,9 @@ Legend for flags:
 - H - already have (no need to pay)
 - D - delivered (and paid)
 - ? - needs to be discussed
+
+Capabilities of the system described here: 
+
+Open Source BBN Marine Linux for Raspberry Pi by Bareboat Necessities
+https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html
+
