@@ -5,6 +5,7 @@
 |      | AIS class B        |        445.00 | https://www.waveinn.com                                | AMEC CAMINO-108 Class B AIS Transponder                                                 
 |      | AIS antenna        |         32.00 | https://www.amazon.com    B01K7MWSDC                   | Tram AIS VHF Marine Antenna                                                  
 |      | VHF cable          |               |                                                        |                                             
+|      | GPS antenna        |               |                                                        | GPS antenna for AIS                                            
 |      | VHF connectors     |               |                                                        |                                             
 |      | Antenna mount      |               |                                                        |                                             
 |      | Coax cable seal    |               |                                                        |                                             
