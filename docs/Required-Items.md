@@ -22,6 +22,11 @@
 |      | Charts             |               | https://www.o-charts.org                               |  OpenCPN Compatible                                           
 |      | Keyboard           |               |                                                        |  Waterproof, backlid, USB wired, with pointing device                                           
 |      | Mouse              |               |                                                        |  USB wired optical with wheel button                                          
+| ==== | **Computer**       |               |                                                        |                                             
+|      | Case               |         60.00 | https://deskpi.com                                     |  DeskPi Pro V2                                          
+|      | Pi                 |         75.00 |                                                        |  Rpi4 8Gb                                          
+|      | SD card            |     3 * 10.00 | https://www.amazon.com B07B98GXQT                      |  Samsung PRO Endurance 32GB 100MB/s (U1) MicroSDXC Memory Card with Adapter (MB-MJ32GA/AM)                                       
+|      | SSD                |         80.00 | https://www.amazon.com B08QBMD6P4                      |  Samsung 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)                                           
 | ==== | **Audio**          |               |                                                        |                                             
 |      | Speakers           |               |                                                        |  Motorcycle / Boat Speakers 12v >100w with Bluetooth? and amp built in, rail mountable                                          
 |      | Sound Card         |               |                                                        |  USB for Rpi with audio in/out                                          
