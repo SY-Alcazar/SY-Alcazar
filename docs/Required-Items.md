@@ -17,7 +17,7 @@
 |      | Sim Card Adapter   |               |                                                        |                                             
 | ==== |                    |               |                                                        |                                             
 |      | Touchscreen        |        180.00 | https://www.waveshare.com   SKU: 16316                 |  13.3inch Capacitive Touch Screen LCD with Case V2, 1920×1080, HDMI, IPS, Various Systems Support                                           
-|      |                    |               |                                                        |                                             
+|      | Screen Mount       |               |                                                        |                                             
 |      |                    |               |                                                        |                                             
 |      |                    |               |                                                        |                                             
 |      |                    |               |                                                        |                                             
