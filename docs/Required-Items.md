@@ -13,10 +13,10 @@
 | ==== |                    |               |                                                        |                                             
 |      | LTE Router         |        150.00 | https://www.gl-inet.com                                |  GL-X750V2 4G LTE Smart Router + modem + car charger for it
 |      | Ethernet switch    |         40.00 | https://www.amazon.com    B09FJLYLLY                   |  Centopto Mini Industrial 5 Ports Gigabit Switch Hardened                                           
-|      |                    |               |                                                        |                                             
-|      |                    |               |                                                        |                                             
-|      |                    |               |                                                        |                                             
-|      |                    |               |                                                        |                                             
+|      | Cat6 patch chords  |               |                                                        |                                             
+|      | Sim Card Adapter   |               |                                                        |                                             
+| ==== |                    |               |                                                        |                                             
+|      | Touchscreen        |        180.00 | https://www.waveshare.com   SKU: 16316                 |  13.3inch Capacitive Touch Screen LCD with Case V2, 1920×1080, HDMI, IPS, Various Systems Support                                           
 |      |                    |               |                                                        |                                             
 |      |                    |               |                                                        |                                             
 |      |                    |               |                                                        |                                             
