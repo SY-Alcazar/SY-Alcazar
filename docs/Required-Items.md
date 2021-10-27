@@ -40,7 +40,7 @@
 |      | Switches           |               |                                                        |                                            
 |      | Fuses              |               |                                                        |                                            
 |      | Status Lights      |               |                                                        |                                            
-|      | SD card slot       |               |                                                        |                                            
+|      | SD card slot?      |               |                                                        |                                            
 | ==== | **Audio**          |               |                                                        |                                             
 |      | Speakers           |               |                                                        |  Motorcycle / Boat Speakers 12v >100w with Bluetooth? and amp built in, rail mountable                                          
 |      | Sound Card         |               |                                                        |  USB for Rpi with audio in/out                                          
