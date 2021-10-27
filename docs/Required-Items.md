@@ -35,3 +35,4 @@
 |      | Heat gun           |               |                                                        |                                           
 |      | Cable ties         |               |                                                        |                                          
 |      | Crimping tool      |               |                                                        |                                          
+|      | Rotary toolkit     |               |                                                        |                                          
