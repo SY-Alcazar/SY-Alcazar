@@ -70,7 +70,11 @@
 |      | Marine DC Wires    |               |                                                        |                                          
 | ==== | **Controllers**    |               |                                                        |                                             
 |      | M5Stack tough      |         50.00 | https://shop.m5stack.com                               | M5Stack Tough ESP32 IoT Development Board Kit                                         
-|      |     |               |                                                        |                                          
+|      | Wio-Terminal       |         37.00 | https://www.seeedstudio.com                            | Wio Terminal: ATSAMD51 Core with Realtek RTL8720DN BLE 5.0 & Wi-Fi 2.4G/5G Dev Board                                         
+|      | Seeeduino          |          6.50 | https://www.seeedstudio.com                            | Seeeduino XIAO (Pre-Soldered)                                         
+|      | LoRa Grove         |         17.00 | https://www.seeedstudio.com                            | Grove - LoRa-E5 (STM32WLE5JC), EU868/US915, LoRaWAN supported                                  
+|      | LoRa Wio           |         33.00 | https://www.seeedstudio.com                            | Wio Terminal LoRaWan Chassis with Antenna- built-in LoRa-E5 and GNSS, EU868/US915                                  
+|      | Grove Seeduino     |          5.40 | https://www.seeedstudio.com                            | Grove Shield for Seeeduino XIAO - with embedded battery management chip                                  
 
 
 Legend for flags:
