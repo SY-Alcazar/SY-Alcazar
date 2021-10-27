@@ -1,5 +1,5 @@
 
-| Flag | Item               | Price, $      | Source                                                 | Description                                                  
+| Flag | Item               | Price (~),  $ | Source                                                 | Description                                                  
 | :--- | :---               |          ---: | :---                                                   | :---                                                    
 | ==== | **AIS**            |               |                                                        |                                             
 |      | AIS class B        |        445.00 | https://www.waveinn.com                                | AMEC CAMINO-108 Class B AIS Transponder                                                 
@@ -68,3 +68,15 @@
 |      | Crimping tool      |               |                                                        |                                          
 |      | Rotary toolkit     |               |                                                        |                                          
 |      | Marine DC Wires    |               |                                                        |                                          
+| ==== | **Controllers**    |               |                                                        |                                             
+|      | M5Stack tough      |         50.00 | https://shop.m5stack.com                               | M5Stack Tough ESP32 IoT Development Board Kit                                         
+|      |     |               |                                                        |                                          
+
+
+Legend for flags:
+
+- A - approved for purchase
+- P - purchased
+- N - not needed
+- H - already have (no need to pay)
+- D - delivered (and paid)
