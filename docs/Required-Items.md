@@ -18,7 +18,7 @@
 |      | Cat6 patch chords  |               |                                                        |                                             
 |      | Sim Card Adapter   |               |                                                        |                                             
 | ==== | **UI**             |               |                                                        |                                             
-|      | Touchscreen        |        317.10 | https://www.touchtecs.com/marine-monitor/              | 10.1" Marine Capacitive Touch Screen https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html#_touchthink_marine_hdmi_touchscreen                                          
+|      | Touchscreen        |        317.10 | https://www.touchtecs.com/marine-monitor/              | 10.1" TouchThink (order on alibaba.com) Marine Capacitive Touch Screen https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html#_touchthink_marine_hdmi_touchscreen                                          
 |      | Screen Mount       |               |                                                        | VESA 100x100 with arm to rotate?                                           
 |      | Charts             |               | https://www.o-charts.org                               | OpenCPN Compatible                                           
 |      | Keyboard           |               |                                                        | Waterproof, backlid, USB wired, with pointing device                                           
