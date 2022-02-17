@@ -18,16 +18,14 @@
 |      | Cat6 patch chords  |               |                                                        |                                             
 |      | Sim Card Adapter   |               |                                                        |                                             
 | ==== | **UI**             |               |                                                        |                                             
-|      | Touchscreen        |        180.00 | https://www.waveshare.com   SKU: 16316                 | 13.3inch Capacitive Touch Screen LCD with Case V2, 1920×1080, HDMI, IPS, Various Systems Support                                           
+|      | Touchscreen        |        317.10 | https://www.touchtecs.com/marine-monitor/              | 10.1" Marine Capacitive Touch Screen https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html#_touchthink_marine_hdmi_touchscreen                                          
 |      | Screen Mount       |               |                                                        | VESA 100x100 with arm to rotate?                                           
 |      | Charts             |               | https://www.o-charts.org                               | OpenCPN Compatible                                           
 |      | Keyboard           |               |                                                        | Waterproof, backlid, USB wired, with pointing device                                           
 |      | Mouse              |               |                                                        | USB wired optical with wheel button                                          
 |      | Mouse Gel Pad      |               |                                                        |                                    
 | ==== | **Computer**       |               |                                                        |                                             
-|      | Case               |         60.00 | https://deskpi.com                                     | DeskPi Pro V2                                          
-|      | Pi                 |         75.00 |                                                        | Rpi4 8Gb                                          
-|      | SD card            |     3 * 10.00 | https://www.amazon.com B07B98GXQT                      | Samsung PRO Endurance 32GB 100MB/s (U1) MicroSDXC Memory Card with Adapter (MB-MJ32GA/AM)                                       
+|      | Case with pi4 8Gb  |        215.00 | https://www.amazon.com B09B1RKMZ5                      | DeskPi Pro V2 with pi4 8Gb kit, 32Gb SD                                         
 |      | SSD                |         80.00 | https://www.amazon.com B08QBMD6P4                      | Samsung 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)                                           
 | ==== | **Panel**          |               |                                                        |                                             
 |      | USB Data Ports     |               |                                                        |                                            
