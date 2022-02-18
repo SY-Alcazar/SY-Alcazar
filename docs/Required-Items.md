@@ -67,6 +67,7 @@
 |      | Crimping tool      |               |                                                        |                                          
 |      | Rotary toolkit     |               |                                                        |                                          
 |      | Marine DC Wires    |               |                                                        |                                          
+|      | Data wires shielded|               |                                                        |                                          
 | ==== | **Controllers**    |               |                                                        |                                             
 |  ?   | M5Stack tough      |         50.00 | https://shop.m5stack.com                               | M5Stack Tough ESP32 IoT Development Board Kit                                         
 |  ?   | Wio-Terminal       |         37.00 | https://www.seeedstudio.com                            | Wio Terminal: ATSAMD51 Core with Realtek RTL8720DN BLE 5.0 & Wi-Fi 2.4G/5G Dev Board                                         
