@@ -51,10 +51,10 @@
 |  ?   | RTC                |               |                                                        | RTC clock (DS3231 or DS1307)                                           
 |  ?   | Battery for RTC    |               |                                                        | Battery for RTC                                           
 |  ?   | Env i2c sensors    |         19.00 | https://www.adafruit.com                               | Bosch BME680 (pressure/temp/humid/gas)                                          
-|  ?   | IMU                |         22.00 | https://www.waveshare.com/10-dof-imu-sensor-c.htm      | Waveshare 10 DOF IMU Sensor (C)                                           
+|      | IMU                |         22.00 | https://www.waveshare.com/10-dof-imu-sensor-c.htm      | Waveshare 10 DOF IMU Sensor (C)                                           
 |  ?   | GPIO breakout      |         15.00 | https://czh-labs.com                                   | Ultra-small RPi GPIO Terminal Block Breakout Board Module, for Raspberry Pi OONO D-1352                                         
 |  ?   | GPIO sleeve        |               |                                                        | GPIO sleeve                                           
-|  ?   | Wires for i2c      |               |                                                        |                                          
+|      | Wires for i2c      |               |                                                        |                                          
 |  ?   | Lightning Detector |         26.50 | https://www.sparkfun.com                               | SparkFun Lightning Detector - AS3935                                          
 | ==== | **Tools**          |               |                                                        |                                             
 |      | Ethernet toolkit   |               |                                                        |                                             
