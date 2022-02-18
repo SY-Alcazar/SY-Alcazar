@@ -78,7 +78,7 @@
 |  ?   | Waterproof Box     |               |                                                        | Waterproof box for a dinghy GPS LoRa transmitter
 | ?=== | **Media Server**   |               |                                                        | Another Rpi4 with Open Media Server and SSD ??? 
 | ==== | **SDR/HAM/SSB**    |               |                                                        |  - not going to be implemented at this time                                           
-| ==== | **TinyPilot**      |               |                                                        |  - TinyPilot with PyPilot not going to be implemented at this time                                           
+| ==== | **TinyPilot**      |               |                                                        |  - TinyPilot with PyPilot not going to be implemented at this time. See also: https://pcnautic.nl/nl/autopilot/pcnautic-autopilot-detail                                           
 
 
 Legend for flags:
