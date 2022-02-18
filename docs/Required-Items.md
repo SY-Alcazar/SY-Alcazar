@@ -77,6 +77,7 @@
 |  ?   | Grove Seeduino     |          5.40 | https://www.seeedstudio.com                            | Grove Shield for Seeeduino XIAO - with embedded battery management chip                                  
 |  ?   | Waterproof Box     |               |                                                        | Waterproof box for a dinghy GPS LoRa transmitter
 | ?=== | **Media Server**   |               |                                                        | Another Rpi4 with Open Media Server and SSD ??? 
+| ?=== | **VHF upgrade**    |               |                                                        | With DSC, GPS, (register MMSI) etc ??? 
 | ==== | **SDR/HAM/SSB**    |               |                                                        |  - not going to be implemented at this time                                           
 | ==== | **TinyPilot**      |               |                                                        |  - TinyPilot with PyPilot not going to be implemented at this time. See also: https://pcnautic.nl/nl/autopilot/pcnautic-autopilot-detail                                           
 
