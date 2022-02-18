@@ -8,6 +8,7 @@
 |  H   | Cable seal         |               |                                                        |                                             
 | ==== | **NavTex**         |               |                                                        |                                             
 |  H   | PC NavTex          |       250.00  | https://www.nasamarine.com/product/pc-navtex-usb/      | NASA Marine PC NavTex, USB and antenna                                            
+|      | Cable seal         |               |                                                        |                                             
 | ==== | **PLB**            |               |                                                        |                                             
 |      | PLB beacon         |        320.00 | https://www.westmarine.com                             | ACR ELECTRONICS–ResQLink 400 Personal Locator Beacon Marine Safety
 | ==== | **Mux**            |               |                                                        |                                             
