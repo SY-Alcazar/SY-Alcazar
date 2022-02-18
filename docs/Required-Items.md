@@ -9,6 +9,8 @@
 |      | VHF connectors     |               |                                                        |                                             
 |      | Antenna mount      |               |                                                        |                                             
 |      | Coax cable seal    |               |                                                        |                                             
+| ==== | **PLB**            |               |                                                        |                                             
+|      | PLB beacon         |        320.00 | https://www.westmarine.com                             | ACR ELECTRONICS–ResQLink 400 Personal Locator Beacon Marine Safety
 | ==== | **Mux**            |               |                                                        |                                             
 |      | Mux                |        240.00 | https://navstore.com                                   | Shipmodul MiniPlex-3USB (bi-dir seatalk1)                                           
 |  D   | USB Hub            |   2 *   17.00 | https://www.amazon.com    B07BBLL3MJ                   | Aiibe 6 Ports Super High Speed USB                                           
