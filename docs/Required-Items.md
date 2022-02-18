@@ -29,6 +29,7 @@
 | ==== | **Computer**       |               |                                                        |                                             
 |  D   | Case with pi4 8Gb  |   2 *  215.00 | https://www.amazon.com B09B1RKMZ5                      | DeskPi Pro V2 with pi4 8Gb kit, 32Gb SD                                         
 |  P   | SSD                |         80.00 | https://www.amazon.com B08QBMD6P4                      | Samsung 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)                                           
+|      | -> 5v DC converter |   2 *    9.00 | https://www.amazon.com B01M03288J                      | TOBSUN EA50-5V DC 12V 24V to DC 5V 10A 50W Converter Regulator 5V 50W Power Supply Step Down Module Transformer
 | ==== | **Panel**          |               |                                                        |                                             
 |      | USB Data Ports     |               |                                                        |                                            
 |      | USB Charge Ports   |               |                                                        |                                            
