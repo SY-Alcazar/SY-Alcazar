@@ -5,9 +5,9 @@
 |      | AIS class B        |        250.00 | https://github.com/peterantypas/maiana                 | MAIANA AIS BASE KIT                                              
 |      | USB adapter        |         22.00 | https://github.com/peterantypas/maiana                 | MAIANA Ethernet to USB and NMEA0183                                              
 |      | Antenna mount      |               |                                                        |                                             
-|      | Cable seal         |               |                                                        |                                             
+|  H   | Cable seal         |               |                                                        |                                             
 | ==== | **NavTex**         |               |                                                        |                                             
-|      | PC NavTex          |       250.00  | https://www.nasamarine.com/product/pc-navtex-usb/      | NASA Marine PC NavTex, USB and antenna                                            
+|  H   | PC NavTex          |       250.00  | https://www.nasamarine.com/product/pc-navtex-usb/      | NASA Marine PC NavTex, USB and antenna                                            
 | ==== | **PLB**            |               |                                                        |                                             
 |      | PLB beacon         |        320.00 | https://www.westmarine.com                             | ACR ELECTRONICS–ResQLink 400 Personal Locator Beacon Marine Safety
 | ==== | **Mux**            |               |                                                        |                                             
