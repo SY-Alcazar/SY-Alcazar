@@ -2,21 +2,17 @@
 | Flag | Item               | Price (~),  $ | Source                                                 | Description                                                  
 | :--- | :---               |          ---: | :---                                                   | :---                                                    
 | ==== | **AIS**            |               |                                                        |                                             
-|      | AIS class B        |        445.00 | https://www.waveinn.com                                | AMEC CAMINO-108 Class B AIS Transponder                                                 
-|      | AIS antenna        |         32.00 | https://www.amazon.com    B01K7MWSDC                   | Tram AIS VHF Marine Antenna                                                  
-|      | VHF cable          |               |                                                        |                                             
-|      | GPS antenna        |               |                                                        | GPS antenna for AIS                                            
-|      | VHF connectors     |               |                                                        |                                             
+|      | AIS class B        |        250.00 | https://github.com/peterantypas/maiana                 | MAIANA AIS                                                 
 |      | Antenna mount      |               |                                                        |                                             
-|      | Coax cable seal    |               |                                                        |                                             
+|      | Cable seal         |               |                                                        |                                             
 | ==== | **PLB**            |               |                                                        |                                             
 |      | PLB beacon         |        320.00 | https://www.westmarine.com                             | ACR ELECTRONICS–ResQLink 400 Personal Locator Beacon Marine Safety
 | ==== | **Mux**            |               |                                                        |                                             
-|      | Mux                |        240.00 | https://navstore.com                                   | Shipmodul MiniPlex-3USB (bi-dir seatalk1)                                           
+|  P   | Mux                |        240.00 | https://navstore.com                                   | Shipmodul MiniPlex-3USB (bi-dir seatalk1)                                           
 |  D   | USB Hub            |   2 *   17.00 | https://www.amazon.com    B07BBLL3MJ                   | Aiibe 6 Ports Super High Speed USB                                           
 | ==== | **Internet**       |               |                                                        |                                             
-|      | LTE Router         |        150.00 | https://www.gl-inet.com                                | GL-X750V2 4G LTE Smart Router + modem + car charger for it
-|      | Ethernet switch    |         40.00 | https://www.amazon.com    B09FJLYLLY                   | Centopto Mini Industrial 5 Ports Gigabit Switch Hardened                                           
+|  P   | LTE Router         |   2 *  150.00 | https://www.gl-inet.com                                | GL-X750V2 4G LTE Smart Router + modem + car charger for it
+|  P   | Ethernet switch    |         40.00 | https://www.amazon.com    B09FJLYLLY                   | Centopto Mini Industrial 5 Ports Gigabit Switch Hardened                                           
 |      | Cat6 patch chords  |               |                                                        |                                             
 |      | Sim Card Adapter   |               |                                                        |                                             
 | ==== | **UI**             |               |                                                        |                                             
@@ -28,7 +24,7 @@
 |      | Mouse Gel Pad      |               |                                                        |                                    
 | ==== | **Computer**       |               |                                                        |                                             
 |  D   | Case with pi4 8Gb  |   2 *  215.00 | https://www.amazon.com B09B1RKMZ5                      | DeskPi Pro V2 with pi4 8Gb kit, 32Gb SD                                         
-|      | SSD                |         80.00 | https://www.amazon.com B08QBMD6P4                      | Samsung 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)                                           
+|  P   | SSD                |         80.00 | https://www.amazon.com B08QBMD6P4                      | Samsung 870 EVO 500GB 2.5 Inch SATA III Internal SSD (MZ-77E500B/AM)                                           
 | ==== | **Panel**          |               |                                                        |                                             
 |      | USB Data Ports     |               |                                                        |                                            
 |      | USB Charge Ports   |               |                                                        |                                            
@@ -41,7 +37,7 @@
 |      | Switches           |               |                                                        |                                            
 |      | Fuses              |               |                                                        |                                            
 |      | Status Lights      |               |                                                        |                                            
-|  ?   | SD card slot       |               |                                                        |                                            
+|  P   | SD card slot       |   2 * 8.00    | https://www.data-alliance.net                          | https://www.data-alliance.net/cable-gland-for-fiber-usb-sim-terminal-block-waterproof-ip67-feed-thru/                                           
 |      | Panel Materials    |               |                                                        |                                            
 | ==== | **Audio**          |               |                                                        |                                             
 |  ?   | Speakers           |               |                                                        | Motorcycle / Boat Speakers 12v >100w with Bluetooth? and amp built in, rail mountable                                          
@@ -53,7 +49,7 @@
 |  ?   | RTC                |               |                                                        | RTC clock (DS3231 or DS1307)                                           
 |  ?   | Battery for RTC    |               |                                                        | Battery for RTC                                           
 |  ?   | Env i2c sensors    |         19.00 | https://www.adafruit.com                               | Bosch BME680 (pressure/temp/humid/gas)                                          
-|      | IMU                |         22.00 | https://www.waveshare.com/10-dof-imu-sensor-c.htm      | Waveshare 10 DOF IMU Sensor (C)                                           
+|  P   | IMU                |   2 *   22.00 | https://www.waveshare.com/10-dof-imu-sensor-c.htm      | Waveshare 10 DOF IMU Sensor (C)                                           
 |  ?   | GPIO breakout      |         15.00 | https://czh-labs.com                                   | Ultra-small RPi GPIO Terminal Block Breakout Board Module, for Raspberry Pi OONO D-1352                                         
 |  ?   | GPIO sleeve        |               |                                                        | GPIO sleeve                                           
 |      | Wires for i2c      |               |                                                        |                                          
