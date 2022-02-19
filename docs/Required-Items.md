@@ -23,6 +23,9 @@
 | ==== | **UI**             |               |                                                        |                                             
 |      | Touchscreen        |        317.10 | https://www.touchtecs.com/marine-monitor/              | 10.1" TouchThink (order on alibaba.com) Marine Capacitive Touch Screen https://bareboat-necessities.github.io/my-bareboat/bareboat-os.html#_touchthink_marine_hdmi_touchscreen                                          
 |      | Screen Mount       |               |                                                        | VESA 100x100 with arm to rotate?                                           
+|      | Screen Brackets    |               |                                                        | For flush mount with gasket                                   
+|      | USB cable          |               |                                                        | To run to cockpit monitor                                   
+|      | HDMI cable         |               |                                                        | To run to cockpit monitor                                  
 |      | Charts             |               | https://www.o-charts.org                               | OpenCPN Compatible                                           
 |      | Keyboard           |               |                                                        | Waterproof, backlid, USB wired, with pointing device                                           
 |      | Mouse              |               |                                                        | USB wired optical with wheel button                                          
@@ -65,6 +68,7 @@
 |      | Butt connectors    |               |                                                        |                                             
 |      | Cable glands       |               |                                                        |                                             
 |      | Heat shrink tubes  |               |                                                        |                                             
+|      | Gasket material    |               |                                                        | Rubber/Cork                                            
 |      | Hot Glue Gun       |               |                                                        | For waterproofing small electronics                                             
 |      | Electronics Tools  |               |                                                        | Smaller screwdrivers, etc                                           
 |      | Heat gun           |               |                                                        |                                           
