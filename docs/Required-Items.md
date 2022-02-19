@@ -3,7 +3,7 @@
 | :--- | :---               |          ---: | :---                                                   | :---                                                    
 | ==== | **AIS**            |               |                                                        |                                             
 |      | AIS class B        |        250.00 | https://github.com/peterantypas/maiana                 | MAIANA AIS BASE KIT                                              
-|      | USB adapter        |         22.00 | https://github.com/peterantypas/maiana                 | MAIANA Ethernet to USB and NMEA0183                                              
+|      | USB adapter        |         32.00 | https://github.com/peterantypas/maiana                 | MAIANA Ethernet to USB and NMEA0183                                              
 |      | Antenna mount      |               |                                                        |                                             
 |  H   | Cable seal         |               |                                                        |                                             
 | ==== | **NavTex**         |               |                                                        |                                             
