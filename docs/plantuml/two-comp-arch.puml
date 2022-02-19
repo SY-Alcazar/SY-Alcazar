@@ -1,0 +1,123 @@
+@startuml
+
+rectangle AIS [
+ MAIANA AIS Base Kit
+]
+
+rectangle AIS_to_NMEA [
+ MAIANA AIS USB + RS422 Adapter (NMEA-0183)
+]
+
+node MUX [
+ MUX
+ ----
+ Shipmodule MiniPlex-3USB
+]
+
+node comp1 [
+ Computer_1 (Strategic)
+]
+
+node comp2 [
+ Computer_2 (Tactical)
+]
+
+rectangle usb_hub1 [
+ USB HUB #1
+]
+
+rectangle usb_hub2 [
+ USB HUB #2
+]
+
+
+rectangle router1 [
+ Router1
+]
+
+rectangle router2 [
+ Router2
+]
+
+rectangle Eth_switch [
+ Ethernet Switch
+]
+
+rectangle mon1 [
+ Monitor1 (Nav Station)
+]
+
+rectangle mon2 [
+ Monitor2 (Cockpit)
+]
+
+rectangle USB_to_Serial1 [
+ USB to NMEA-0183 (#1)
+ ----
+ FTDI USB to RS-422
+]
+
+rectangle USB_to_Serial2 [
+ USB to NMEA-0183 (#2)
+ ----
+ FTDI USB to RS-422
+]
+
+cloud seatalk [
+ SeaTalk1
+]
+
+rectangle instr [
+ Depth/Speed
+ Wind
+]
+
+rectangle AP [
+ AutoPilot
+]
+
+rectangle IMU1 [
+ IMU_1
+]
+
+rectangle IMU2 [
+ IMU_2
+]
+
+rectangle NavTex [
+ NavTex
+ ----
+ Nasa Marine PC-NavTex USB
+]
+
+AIS -u- AIS_to_NMEA
+
+MUX -- AIS_to_NMEA
+MUX -l- USB_to_Serial1
+MUX -r- USB_to_Serial2
+MUX -u- seatalk
+
+seatalk -r- instr
+seatalk -l- AP
+
+comp1 -u- mon1
+comp2 -u- mon2
+
+comp1 -r- IMU1
+comp2 -l- IMU2
+
+usb_hub1 -r- NavTex
+
+comp1 -d- usb_hub1
+comp2 -d- usb_hub2
+
+usb_hub1 -- USB_to_Serial1
+usb_hub2 -- USB_to_Serial2
+
+Eth_switch -u- router2
+Eth_switch -u- router1
+
+Eth_switch -l- comp1
+Eth_switch -r- comp2
+
+@enduml
