@@ -64,6 +64,7 @@
 |      | Butt connectors    |               |                                                        |                                             
 |      | Cable glands       |               |                                                        |                                             
 |      | Heat shrink tubes  |               |                                                        |                                             
+|      | Hot Glue Gun       |               |                                                        | For waterproofing small electronics                                             
 |      | Electronics Tools  |               |                                                        | Smaller screwdrivers, etc                                           
 |      | Heat gun           |               |                                                        |                                           
 |      | Cable ties         |               |                                                        |                                          
