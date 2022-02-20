@@ -101,8 +101,8 @@ seatalk -l- AP
 comp1 -u- mon1 : HDMI/USB
 comp2 -u- mon2 : HDMI/USB
 
-comp1 -r- IMU1
-comp2 -l- IMU2
+comp1 -r- IMU1 : i2c
+comp2 -l- IMU2 : i2c
 
 usb_hub1 -r- NavTex
 
