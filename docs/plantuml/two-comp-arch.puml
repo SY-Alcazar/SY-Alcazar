@@ -119,7 +119,7 @@ comp2 -d- usb_hub2
 usb_hub1 -- USB_to_Serial1
 usb_hub2 -- USB_to_Serial2
 
-Eth_switch -u- router2
+router1 -r- router2
 Eth_switch -u- router1
 
 Eth_switch -l- comp1
