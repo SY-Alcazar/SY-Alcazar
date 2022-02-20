@@ -88,7 +88,7 @@ rectangle NavTex [
  Nasa Marine PC-NavTex USB
 ]
 
-AIS -u- AIS_to_NMEA
+AIS -u- AIS_to_NMEA : Cat6
 
 MUX -- AIS_to_NMEA : NMEA-0183
 MUX -r- USB_to_Serial2 : NMEA-0183
@@ -98,8 +98,8 @@ MUX -- VHF : NMEA-0183
 seatalk -r- instr
 seatalk -l- AP
 
-comp1 -u- mon1
-comp2 -u- mon2
+comp1 -u- mon1 : HDMI/USB
+comp2 -u- mon2 : HDMI/USB
 
 comp1 -r- IMU1
 comp2 -l- IMU2
@@ -109,7 +109,7 @@ usb_hub1 -r- NavTex
 comp1 -d- usb_hub1
 comp2 -d- usb_hub2
 
-usb_hub1 -- MUX
+usb_hub1 -- MUX : USB
 usb_hub2 -- USB_to_Serial2
 
 router1 -r- router2 : WAN to LAN
