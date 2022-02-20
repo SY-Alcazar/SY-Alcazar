@@ -14,7 +14,7 @@
 | ==== | **Mux**            |               |                                                        |                                             
 |  P   | Mux                |        240.00 | https://navstore.com                                   | Shipmodul MiniPlex-3USB (bi-dir seatalk1)                                           
 |  D   | USB Hub            |   2 *   17.00 | https://www.amazon.com    B07BBLL3MJ                   | Aiibe 6 Ports Super High Speed USB                                           
-|      | USB to RS-422      |   3 *   18.00 | https://www.amazon.com    B07B416CPK                   | DSD TECH SH-U11 USB to RS485 RS422 Converter with FTDI FT232 Chip                                           
+|  P   | USB to RS-422      |   3 *   18.00 | https://www.amazon.com    B07B416CPK                   | DSD TECH SH-U11 USB to RS485 RS422 Converter with FTDI FT232 Chip                                           
 | ==== | **Internet**       |               |                                                        |                                             
 |  P   | LTE Router         |   2 *  150.00 | https://www.gl-inet.com                                | GL-X750V2 4G LTE Smart Router + modem + car charger for it
 |  P   | Ethernet switch    |         40.00 | https://www.amazon.com    B09FJLYLLY                   | Centopto Mini Industrial 5 Ports Gigabit Switch Hardened                                           
